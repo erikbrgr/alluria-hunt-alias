@@ -340,7 +340,7 @@ def determine_challenge(player_level, input_difficulty=None):
         2: {"Easy": 50, "Medium": 100, "Hard": 150, "Deadly": 200},
         3: {"Easy": 75, "Medium": 150, "Hard": 225, "Deadly": 400},
         4: {"Easy": 125, "Medium": 250, "Hard": 375, "Deadly": 500},
-        5: {"Easy": 250, "Medium": 500, "Hard": 900, "Deadly": 1100},
+        5: {"Easy": 250, "Medium": 500, "Hard": 750, "Deadly": 1100},
         6: {"Easy": 300, "Medium": 600, "Hard": 900, "Deadly": 1400},
         7: {"Easy": 350, "Medium": 750, "Hard": 1100, "Deadly": 1700},
         8: {"Easy": 450, "Medium": 900, "Hard": 1400, "Deadly": 2100},
