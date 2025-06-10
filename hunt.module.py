@@ -168,7 +168,7 @@ def format_encounter_details(suitable_monsters, biome, difficulty_roll, chosen_d
     # Building the monster details section and aggregating information
     for monster in suitable_monsters:
         creature, cr, xp, creature_type, biome1, biome2, size, appears_day, appears_night = monster
-        total_monster_xp += (xp / 5)
+        total_monster_xp += xp
         active_time_emoji = ":partly_sunny:/:crescent_moon: " if appears_day and appears_night else (
             ":partly_sunny:" if appears_day else ":crescent_moon: ")
 
@@ -204,7 +204,7 @@ def format_encounter_details(suitable_monsters, biome, difficulty_roll, chosen_d
         # magical_materials_emoji = get_emoji_representation(magical_materials_for_this_type, ':star2:', ':star:')
 
         # Calculate the individual and total XP
-        individual_xp = ((info['xp']) / 5)  # assuming 'xp' is the XP for one creature
+        individual_xp = info['xp']  # assuming 'xp' is the XP for one creature
         total_xp_for_this_creature = individual_xp * count
 
         # Construct strings for materials and magical materials
@@ -212,7 +212,7 @@ def format_encounter_details(suitable_monsters, biome, difficulty_roll, chosen_d
         # magical_materials_str = f"{magical_materials_for_this_type} Magical Material" if magical_materials_for_this_type == 1 else f"{magical_materials_for_this_type} Magical Materials"
 
         # Prepare the monster details string
-        monster_info = f"""**{creature} (CR{info['cr']}** x{count} ({individual_xp}XP each = {total_xp_for_this_creature}XP total)
+        monster_info = f"""**{creature} (CR{info['cr']})** x{count} ({individual_xp}XP each = {total_xp_for_this_creature}XP total)
 * *{info['behavior']}*
 """
 
@@ -224,6 +224,17 @@ def format_encounter_details(suitable_monsters, biome, difficulty_roll, chosen_d
     # Store this information in the character's cvar
     set_loot_cvar(total_monster_xp, biome, player_levels_dict)
 
+    # Calculate the total level of all players
+    total_level = sum(player_levels_dict.values())
+
+    # Initialize a string to display XP distribution
+    xp_distribution_str = "__:trophy: XP Distribution__:\n"
+
+    # Calculate and append the proportional XP for each player to the string
+    for player_name, player_level in player_levels_dict.items():
+        player_share = (player_level / total_level) * total_monster_xp if total_level else 0
+        xp_distribution_str += f"- {player_name}: {int(player_share / 5)} XP\n"
+
     # Difficulty and XP details
     difficulty_details = f"No. of Players: {len(player_levels_dict)}\n{difficulty_roll} - Challenge: {chosen_difficulty} (XP: {xp_value})\n" \
                          f"Encounter XP: {total_monster_xp}/{xp_value}"
@@ -233,9 +244,7 @@ def format_encounter_details(suitable_monsters, biome, difficulty_roll, chosen_d
 
 __Encounter__:
 {monster_details}
-__Rewards__:
-:trophy: {total_monster_xp} XP
-
+{xp_distribution_str}
 __Challenge__:
 {difficulty_details}
 """
@@ -352,17 +361,6 @@ def determine_challenge(player_levels_dict, input_difficulty=None):
         20: {"Easy": 2800, "Medium": 5700, "Hard": 8500, "Deadly": 12700}
     }
 
-    player_level = sum(player_levels_dict.values())
-
-    if player_level > 20:
-        base_value = 500 * (player_level - 20)  # Base calculation formula for difficulty levels
-        difficulty_levels[player_level] = {
-            "Easy": (2800 + base_value),
-            "Medium": (5700 + base_value * 2),
-            "Hard": (8500 + base_value * 3),
-            "Deadly": (12700 + base_value * 4.5)
-        }
-
     # Map roll to difficulty
     difficulty_list = ['Easy', 'Medium', 'Hard', 'Deadly']
 
@@ -376,7 +374,10 @@ def determine_challenge(player_levels_dict, input_difficulty=None):
         chosen_difficulty = difficulty_list[difficulty_roll.total - 1]
 
     # Retrieve the XP value from the difficulty levels dictionary
-    xp_value = int(difficulty_levels[player_level][chosen_difficulty])
+    # xp_value = int(difficulty_levels[player_level][chosen_difficulty])
+    xp_value = 0
+    for level in player_levels_dict.values():
+        xp_value += int(difficulty_levels[level][chosen_difficulty])
 
     return difficulty_roll, chosen_difficulty, xp_value
 
