@@ -10,7 +10,7 @@ input_difficulty = "hard"
 
 using(
     calendar="74a21a79-bc4c-4b03-9b21-a16e2b591a89",
-    hunt="bf305f5e-aada-44ec-9c0d-cd810e0031d7"
+    hunt="593dbe17-b0dc-4d32-9c65-9fb9f2c00098"
 )
 
 def main(unparsed_args) -> tuple(str, str, str, str, str):
@@ -43,7 +43,6 @@ def main(unparsed_args) -> tuple(str, str, str, str, str):
         else:
             return "Invalid input", f"Input: {unparsed_arg}", color, "", footer
 
-    level = sum(player_levels_dict.values())
     # Count the number of players above level 7
     players_above_level_7 = sum(1 for level in player_levels_dict.values() if level > 7)
 
@@ -53,7 +52,7 @@ def main(unparsed_args) -> tuple(str, str, str, str, str):
     # Adjust max_monsters based on players above level 7
     max_monsters = base_max_monsters + (3 * players_above_level_7)
 
-    difficulty_roll, chosen_difficulty, xp_value = hunt.determine_challenge(level, input_difficulty)
+    difficulty_roll, chosen_difficulty, xp_value = hunt.determine_challenge(player_levels_dict, input_difficulty)
 
     is_daytime = calendar.is_daytime(curr_time)
 
@@ -61,7 +60,7 @@ def main(unparsed_args) -> tuple(str, str, str, str, str):
     monster_yaml2 = get_gvar("7b2f041a-e187-4f4b-b484-c323afd3cf83")
     monster_data = load_yaml(monster_yaml1+monster_yaml2)
 
-    suitable_monsters = hunt.find_monsters(monster_data, inp1_title, level, xp_value, is_daytime, max_monsters)
+    suitable_monsters = hunt.find_monsters(monster_data, inp1_title, xp_value, is_daytime, max_monsters)
     if not suitable_monsters:
         return "No suitable monsters found", "Please try again.", color, "", footer
 

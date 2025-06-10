@@ -23,7 +23,7 @@ def chunk_monsters_by_xp(monsters, data):
     return chunks
 
 
-def find_monsters(data, biome, player_level, max_xp, is_daytime, max_monsters):
+def find_monsters(data, biome, max_xp, is_daytime, max_monsters):
     monsters_in_biome = [
         monster for monster in data['data']
         if (biome in monster[data['header'].index('Biome1')] or biome in monster[data['header'].index('Biome2')]) and
@@ -328,7 +328,7 @@ def conclude_combat(combat):
 #     char.cc(mag_materials_cc_name).set(mag_materials_new_value)
 
 
-def determine_challenge(player_level, input_difficulty=None):
+def determine_challenge(player_levels_dict, input_difficulty=None):
     difficulty_levels = {
         1: {"Easy": 25, "Medium": 50, "Hard": 75, "Deadly": 100},
         2: {"Easy": 50, "Medium": 100, "Hard": 150, "Deadly": 200},
@@ -351,6 +351,8 @@ def determine_challenge(player_level, input_difficulty=None):
         19: {"Easy": 2400, "Medium": 4900, "Hard": 7300, "Deadly": 10900},
         20: {"Easy": 2800, "Medium": 5700, "Hard": 8500, "Deadly": 12700}
     }
+
+    player_level = sum(player_levels_dict.values())
 
     if player_level > 20:
         base_value = 500 * (player_level - 20)  # Base calculation formula for difficulty levels
