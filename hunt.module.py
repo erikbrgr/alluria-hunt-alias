@@ -11,9 +11,16 @@ pref = ctx.prefix
 al = ctx.alias
 cmd = pref + al
 
-# These values can be tweaked
-xp_modifier = 1.5   # multiplies max xp value
-cr_modifier = 3     # added to CR cap
+svar_name = "hunt_settings"
+if not (settings := get_svar(svar_name)):
+    return "Error", f"Svar {svar_name} does not exist"
+else:
+    settings = load_json(settings)
+
+# This obviously needs better error handling
+xp_modifier = settings["xp_modifier"]               # multiplies max xp value
+cr_modifier = settings["cr_modifier"]               # added to avg player level to determine CR cap
+skip_percentage = settings["skip_percentage"]       # while selecting monsters, skip a chunk X% of the time
 
 # Find suitable monsters for the hunt
 def chunk_monsters_by_xp(monsters, data):
@@ -52,6 +59,8 @@ def find_monsters(data, biome, max_xp, cr_cap, is_daytime, max_monsters):
                 xp_values[i], xp_values[j] = xp_values[j], xp_values[i]
 
     for xp in xp_values:
+        skip_roll = vroll("d100").total
+        if (skip_roll <= skip_percentage): continue
         while chunks[xp] and total_xp + xp <= max_xp and len(suitable_monsters) < max_monsters:
             selected_monster = randchoice(chunks[xp])
             suitable_monsters.append(selected_monster)
@@ -378,8 +387,12 @@ def determine_challenge(player_levels_dict, input_difficulty=None):
         chosen_difficulty = difficulty_list[difficulty_roll.total - 1]
 
     # Retrieve the XP value from the difficulty levels dictionary
+    xp_value = 0
+    for level in player_levels_dict.values():
+        xp_value += int(difficulty_levels[level][chosen_difficulty])
+        
     avg_player_level = int(sum(player_levels_dict.values()) / len(player_levels_dict.values()))
-    xp_value = int(difficulty_levels[avg_player_level][chosen_difficulty])
+    # xp_value = int(difficulty_levels[avg_player_level][chosen_difficulty])
 
     # Add xp modifier
     xp_value = xp_value * xp_modifier
