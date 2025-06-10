@@ -52,7 +52,7 @@ def main(unparsed_args) -> tuple(str, str, str, str, str):
     # Adjust max_monsters based on players above level 7
     max_monsters = base_max_monsters + (3 * players_above_level_7)
 
-    difficulty_roll, chosen_difficulty, xp_value = hunt.determine_challenge(player_levels_dict, input_difficulty)
+    difficulty_roll, chosen_difficulty, xp_value, cr_cap = hunt.determine_challenge(player_levels_dict, input_difficulty)
 
     is_daytime = calendar.is_daytime(curr_time)
 
@@ -60,7 +60,7 @@ def main(unparsed_args) -> tuple(str, str, str, str, str):
     monster_yaml2 = get_gvar("7b2f041a-e187-4f4b-b484-c323afd3cf83")
     monster_data = load_yaml(monster_yaml1+monster_yaml2)
 
-    suitable_monsters = hunt.find_monsters(monster_data, inp1_title, xp_value, is_daytime, max_monsters)
+    suitable_monsters = hunt.find_monsters(monster_data, inp1_title, xp_value, cr_cap, is_daytime, max_monsters)
     if not suitable_monsters:
         return "No suitable monsters found", "Please try again.", color, "", footer
 

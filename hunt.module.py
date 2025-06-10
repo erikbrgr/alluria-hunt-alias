@@ -11,6 +11,9 @@ pref = ctx.prefix
 al = ctx.alias
 cmd = pref + al
 
+# These values can be tweaked
+xp_modifier = 1.5   # multiplies max xp value
+cr_modifier = 3     # added to CR cap
 
 # Find suitable monsters for the hunt
 def chunk_monsters_by_xp(monsters, data):
@@ -23,13 +26,14 @@ def chunk_monsters_by_xp(monsters, data):
     return chunks
 
 
-def find_monsters(data, biome, max_xp, is_daytime, max_monsters):
+def find_monsters(data, biome, max_xp, cr_cap, is_daytime, max_monsters):
     monsters_in_biome = [
         monster for monster in data['data']
         if (biome in monster[data['header'].index('Biome1')] or biome in monster[data['header'].index('Biome2')]) and
            ((is_daytime and monster[data['header'].index('Daytime')]) or (
                        not is_daytime and monster[data['header'].index('Nighttime')])) and
-           monster[data['header'].index('XP')] <= max_xp
+           monster[data['header'].index('XP')] <= max_xp and
+           monster[data['header'].index('CR')] <= cr_cap
     ]
 
     if not monsters_in_biome:
@@ -374,12 +378,16 @@ def determine_challenge(player_levels_dict, input_difficulty=None):
         chosen_difficulty = difficulty_list[difficulty_roll.total - 1]
 
     # Retrieve the XP value from the difficulty levels dictionary
-    # xp_value = int(difficulty_levels[player_level][chosen_difficulty])
-    xp_value = 0
-    for level in player_levels_dict.values():
-        xp_value += int(difficulty_levels[level][chosen_difficulty])
+    avg_player_level = int(sum(player_levels_dict.values()) / len(player_levels_dict.values()))
+    xp_value = int(difficulty_levels[avg_player_level][chosen_difficulty])
 
-    return difficulty_roll, chosen_difficulty, xp_value
+    # Add xp modifier
+    xp_value = xp_value * xp_modifier
+
+    # Determine max CR (simple version)
+    cr_cap = avg_player_level + cr_modifier
+
+    return difficulty_roll, chosen_difficulty, xp_value, cr_cap
 
 
 def is_number_or_comma_separated_numbers(s):
