@@ -183,6 +183,7 @@ def format_encounter_details(suitable_monsters, biome, difficulty_roll, chosen_d
         else:
             monster_counts[creature] = {
                 'count': 1,
+                'cr': cr,
                 'total_xp': xp,
                 'xp': xp,
                 'active_time_emoji': active_time_emoji,
@@ -211,7 +212,7 @@ def format_encounter_details(suitable_monsters, biome, difficulty_roll, chosen_d
         # magical_materials_str = f"{magical_materials_for_this_type} Magical Material" if magical_materials_for_this_type == 1 else f"{magical_materials_for_this_type} Magical Materials"
 
         # Prepare the monster details string
-        monster_info = f"""**{creature}** x{count} ({individual_xp}XP each = {total_xp_for_this_creature}XP total)
+        monster_info = f"""**{creature} (CR{info['cr']}** x{count} ({individual_xp}XP each = {total_xp_for_this_creature}XP total)
 * *{info['behavior']}*
 """
 
