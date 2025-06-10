@@ -35,13 +35,6 @@ def find_monsters(data, biome, player_level, max_xp, is_daytime, max_monsters):
     if not monsters_in_biome:
         return []
 
-    # Check for any monsters that can single-handedly meet the max_xp
-    exact_match_monsters = [monster for monster in monsters_in_biome if monster[data['header'].index('XP')] == max_xp]
-
-    # 50% chance to select a single monster that meets the max_xp
-    if exact_match_monsters and randchoice([True, False]):
-        return [randchoice(exact_match_monsters)]
-
     chunks = chunk_monsters_by_xp(monsters_in_biome, data)
 
     suitable_monsters = []
