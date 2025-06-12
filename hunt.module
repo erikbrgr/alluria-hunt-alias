@@ -21,6 +21,7 @@ else:
 xp_modifier = settings["xp_modifier"]               # multiplies max xp value
 cr_modifier = settings["cr_modifier"]               # added to avg player level to determine CR cap
 skip_percentage = settings["skip_percentage"]       # while selecting monsters, skip a chunk X% of the time
+xp_limit = settings["xp_limit"]                     # limits the amount of xp gained by dividing by X
 
 # Find suitable monsters for the hunt
 def chunk_monsters_by_xp(monsters, data):
@@ -246,7 +247,7 @@ def format_encounter_details(suitable_monsters, biome, difficulty_roll, chosen_d
     # Calculate and append the proportional XP for each player to the string
     for player_name, player_level in player_levels_dict.items():
         player_share = (player_level / total_level) * total_monster_xp if total_level else 0
-        xp_distribution_str += f"- {player_name}: {int(player_share / 5)} XP\n"
+        xp_distribution_str += f"- {player_name}: {int(player_share / xp_limit)} XP\n"
 
     # Difficulty and XP details
     difficulty_details = f"No. of Players: {len(player_levels_dict)}\n{difficulty_roll} - Challenge: {chosen_difficulty} (XP: {xp_value})\n" \
