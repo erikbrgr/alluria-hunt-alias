@@ -22,6 +22,7 @@ xp_modifier = settings["xp_modifier"]               # multiplies max xp value
 cr_modifier = settings["cr_modifier"]               # added to avg player level to determine CR cap
 skip_percentage = settings["skip_percentage"]       # while selecting monsters, skip a chunk X% of the time
 xp_limit = settings["xp_limit"]                     # limits the amount of xp gained by dividing by X
+max_loops = settings["max_loops"]                   # how many times do we loop over the entire list of chunks?
 
 # Find suitable monsters for the hunt
 def chunk_monsters_by_xp(monsters, data):
@@ -58,18 +59,19 @@ def find_monsters(data, biome, max_xp, cr_cap, is_daytime, max_monsters):
         for j in range(i + 1, len(xp_values)):
             if xp_values[i] < xp_values[j]:
                 xp_values[i], xp_values[j] = xp_values[j], xp_values[i]
+    
+    for _ in range(max_loops):
+        for xp in xp_values:
+            skip_roll = vroll("d100").total
+            if (skip_roll <= skip_percentage): continue
+            while chunks[xp] and total_xp + xp <= max_xp and len(suitable_monsters) < max_monsters:
+                selected_monster = randchoice(chunks[xp])
+                suitable_monsters.append(selected_monster)
+                total_xp += selected_monster[data['header'].index('XP')]
+                chunks[xp].remove(selected_monster)  # Remove the selected monster from the chunk
 
-    for xp in xp_values:
-        skip_roll = vroll("d100").total
-        if (skip_roll <= skip_percentage): continue
-        while chunks[xp] and total_xp + xp <= max_xp and len(suitable_monsters) < max_monsters:
-            selected_monster = randchoice(chunks[xp])
-            suitable_monsters.append(selected_monster)
-            total_xp += selected_monster[data['header'].index('XP')]
-            chunks[xp].remove(selected_monster)  # Remove the selected monster from the chunk
-
-            if total_xp >= max_xp or len(suitable_monsters) >= max_monsters:
-                return suitable_monsters
+                if total_xp >= max_xp or len(suitable_monsters) >= max_monsters:
+                    return suitable_monsters
 
     return suitable_monsters
 
