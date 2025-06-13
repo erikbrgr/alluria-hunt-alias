@@ -34,6 +34,14 @@ def chunk_monsters_by_xp(monsters, data):
         chunks[xp].append(monster)
     return chunks
 
+# From DMG (2014)
+def get_monster_xp_multiplier(number_of_monsters):
+    if number_of_monsters >= 15: return 4
+    if number_of_monsters >= 11: return 3
+    if number_of_monsters >= 7: return 2.5
+    if number_of_monsters >= 3: return 2
+    if number_of_monsters == 2: return 1.5
+    return 1
 
 def find_monsters(data, biome, max_xp, cr_cap, is_daytime, max_monsters):
     monsters_in_biome = [
@@ -50,9 +58,6 @@ def find_monsters(data, biome, max_xp, cr_cap, is_daytime, max_monsters):
 
     chunks = chunk_monsters_by_xp(monsters_in_biome, data)
 
-    suitable_monsters = []
-    total_xp = 0
-
     # Manually sorting the XP keys in descending order
     xp_values = list(chunks.keys())
     for i in range(len(xp_values)):
@@ -60,17 +65,24 @@ def find_monsters(data, biome, max_xp, cr_cap, is_daytime, max_monsters):
             if xp_values[i] < xp_values[j]:
                 xp_values[i], xp_values[j] = xp_values[j], xp_values[i]
     
+    suitable_monsters = []
+    total_xp = 0
     for _ in range(max_loops):
         for xp in xp_values:
+            if (xp > (max_xp - total_xp)): continue
+
             skip_roll = vroll("d100").total
             if (skip_roll <= skip_percentage): continue
-            while chunks[xp] and total_xp + xp <= max_xp and len(suitable_monsters) < max_monsters:
+            
+            if chunks[xp]:
                 selected_monster = randchoice(chunks[xp])
                 suitable_monsters.append(selected_monster)
                 total_xp += selected_monster[data['header'].index('XP')]
-                chunks[xp].remove(selected_monster)  # Remove the selected monster from the chunk
 
-                if total_xp >= max_xp or len(suitable_monsters) >= max_monsters:
+                # adjust for number of monsters
+                total_xp *= get_monster_xp_multiplier(len(suitable_monsters))
+
+                if total_xp >= max_xp: # or len(suitable_monsters) >= max_monsters:
                     return suitable_monsters
 
     return suitable_monsters
