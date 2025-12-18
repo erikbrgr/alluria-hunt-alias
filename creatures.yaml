@@ -1,0 +1,1545 @@
+- name: Aarakocra
+  cr: 0.25
+  xp: 50
+- name: Abjurer
+  cr: 9
+  xp: 5000
+- name: Aboleth
+  cr: 10
+  xp: 5900
+- name: Adult Blue Dracolich
+  cr: 18
+  xp: 20000
+- name: Adult Black Dragon
+  cr: 14
+  xp: 11500
+- name: Acolyte
+  cr: 0.25
+  xp: 50
+- name: Abominable Yeti
+  cr: 9
+  xp: 5000
+- name: Adult Blue Dragon
+  cr: 16
+  xp: 15000
+- name: Adult Copper Dragon
+  cr: 14
+  xp: 11500
+- name: Adult Green Dragon
+  cr: 15
+  xp: 13000
+- name: Adult Gold Dragon
+  cr: 17
+  xp: 18000
+- name: Adult Bronze Dragon
+  cr: 15
+  xp: 13000
+- name: Adult Red Dragon
+  cr: 17
+  xp: 18000
+- name: Adult Silver Dragon
+  cr: 16
+  xp: 15000
+- name: Adult White Dragon
+  cr: 13
+  xp: 10000
+- name: Air Elemental
+  cr: 5
+  xp: 1800
+- name: Alhoon
+  cr: 10
+  xp: 5900
+- name: Allosaurus
+  cr: 2
+  xp: 450
+- name: Amphisbaena
+  cr: 0.5
+  xp: 100
+- name: Ancient Black Dragon
+  cr: 21
+  xp: 33000
+- name: Ancient Blue Dragon
+  cr: 23
+  xp: 50000
+- name: Ancient Brass Dragon
+  cr: 20
+  xp: 25000
+- name: Ancient Bronze Dragon
+  cr: 22
+  xp: 41000
+- name: Ancient Copper Dragon
+  cr: 21
+  xp: 33000
+- name: Ancient Gold Dragon
+  cr: 24
+  xp: 62000
+- name: Ancient Green Dragon
+  cr: 22
+  xp: 41000
+- name: Ancient Red Dragon
+  cr: 24
+  xp: 62000
+- name: Ancient Silver Dragon
+  cr: 23
+  xp: 50000
+- name: Ancient White Dragon
+  cr: 20
+  xp: 25000
+- name: Androsphinx
+  cr: 17
+  xp: 18000
+- name: Animated Armor
+  cr: 1
+  xp: 200
+- name: Ankheg
+  cr: 2
+  xp: 450
+- name: Ankylosaurus
+  cr: 3
+  xp: 700
+- name: Annis Hag
+  cr: 6
+  xp: 2300
+- name: Ape
+  cr: 0.5
+  xp: 100
+- name: Apprentice Wizard
+  cr: 0.25
+  xp: 50
+- name: Arcanaloth
+  cr: 12
+  xp: 8400
+- name: Archdruid
+  cr: 12
+  xp: 8400
+- name: Archer
+  cr: 3
+  xp: 700
+- name: Archmage
+  cr: 12
+  xp: 8400
+- name: Assassin
+  cr: 8
+  xp: 3900
+- name: Assassin Vine
+  cr: 3
+  xp: 700
+- name: Aurochs
+  cr: 2
+  xp: 450
+- name: Awakened Shrub
+  cr: 0
+  xp: 10
+- name: Awakened Tree
+  cr: 2
+  xp: 450
+- name: Axe Beak
+  cr: 0.25
+  xp: 50
+- name: Azer
+  cr: 2
+  xp: 450
+- name: Babau
+  cr: 4
+  xp: 1100
+- name: Baboon
+  cr: 0
+  xp: 10
+- name: Badger
+  cr: 0
+  xp: 10
+- name: Balor
+  cr: 19
+  xp: 22000
+- name: Banderhobb
+  cr: 5
+  xp: 1800
+- name: Bandit
+  cr: 0.125
+  xp: 25
+- name: Bandit Captain
+  cr: 2
+  xp: 450
+- name: Barbed Devil
+  cr: 5
+  xp: 1800
+- name: Banshee
+  cr: 4
+  xp: 1100
+- name: Bard
+  cr: 2
+  xp: 450
+- name: Barghest
+  cr: 4
+  xp: 1100
+- name: Barlgura
+  cr: 5
+  xp: 1800
+- name: Basilisk
+  cr: 3
+  xp: 700
+- name: Bearded Devil
+  cr: 3
+  xp: 700
+- name: Bat
+  cr: 0
+  xp: 10
+- name: Behir
+  cr: 11
+  xp: 7200
+- name: Beholder
+  cr: 13
+  xp: 10000
+- name: Berserker
+  cr: 2
+  xp: 450
+- name: Bheur Hag
+  cr: 7
+  xp: 2900
+- name: Beholder Zombie
+  cr: 5
+  xp: 1800
+- name: Black Bear
+  cr: 0.5
+  xp: 100
+- name: Black Guard Drake
+  cr: 2
+  xp: 450
+- name: Black Dragon Wyrmling
+  cr: 2
+  xp: 450
+- name: Blackguard
+  cr: 8
+  xp: 3900
+- name: Black Pudding
+  cr: 4
+  xp: 1100
+- name: Blink Dog
+  cr: 0.25
+  xp: 50
+- name: Blood Hawk
+  cr: 0.125
+  xp: 25
+- name: Blue Dragon Wyrmling
+  cr: 3
+  xp: 700
+- name: Blue Guard Drake
+  cr: 2
+  xp: 450
+- name: Boar
+  cr: 0.25
+  xp: 50
+- name: Blue Slaad
+  cr: 7
+  xp: 2900
+- name: Bodak
+  cr: 6
+  xp: 2300
+- name: Boggle
+  cr: 0.125
+  xp: 25
+- name: Bone Devil
+  cr: 12
+  xp: 8400
+- name: Bone Naga (Spirit)
+  cr: 4
+  xp: 1100
+- name: Bone Naga (Guardian)
+  cr: 4
+  xp: 1100
+- name: Brass Dragon Wyrmling
+  cr: 1
+  xp: 200
+- name: Brontosaurus
+  cr: 5
+  xp: 1800
+- name: Brown Bear
+  cr: 1
+  xp: 200
+- name: Bronze Dragon Wyrmling
+  cr: 2
+  xp: 450
+- name: Bugbear
+  cr: 1
+  xp: 200
+- name: Bugbear Chief
+  cr: 3
+  xp: 700
+- name: Bulette
+  cr: 5
+  xp: 1800
+- name: Bullywug
+  cr: 0.25
+  xp: 50
+- name: Bullywug Croaker
+  cr: 2
+  xp: 450
+- name: Bullywug Royal
+  cr: 3
+  xp: 700
+- name: Cambion
+  cr: 5
+  xp: 1800
+- name: Camel
+  cr: 0.125
+  xp: 25
+- name: Captain Spunkmire
+  cr: 5
+  xp: 1800
+- name: Carrion Crawler
+  cr: 2
+  xp: 450
+- name: Cat
+  cr: 0
+  xp: 10
+- name: Catoblepas
+  cr: 5
+  xp: 1800
+- name: Cave Bear
+  cr: 2
+  xp: 450
+- name: Cave Fisher
+  cr: 3
+  xp: 700
+- name: Chain Devil
+  cr: 11
+  xp: 7200
+- name: Centaur
+  cr: 2
+  xp: 450
+- name: Champion
+  cr: 9
+  xp: 5000
+- name: Chasme
+  cr: 6
+  xp: 2300
+- name: Chitine
+  cr: 0.5
+  xp: 100
+- name: Chimera
+  cr: 6
+  xp: 2300
+- name: Chuul
+  cr: 4
+  xp: 1100
+- name: Choldrith
+  cr: 3
+  xp: 700
+- name: Clay Golem
+  cr: 9
+  xp: 5000
+- name: Cloaker
+  cr: 8
+  xp: 3900
+- name: Cloud Giant
+  cr: 9
+  xp: 5000
+- name: Cloud Giant Smiling One
+  cr: 11
+  xp: 7200
+- name: Cockatrice
+  cr: 0.5
+  xp: 100
+- name: Commoner
+  cr: 0
+  xp: 10
+- name: Conjurer
+  cr: 6
+  xp: 2300
+- name: Constrictor Snake
+  cr: 0.25
+  xp: 50
+- name: Copper Dragon Wyrmling
+  cr: 1
+  xp: 200
+- name: Couatl
+  cr: 4
+  xp: 1100
+- name: Cow
+  cr: 0.25
+  xp: 50
+- name: Crab
+  cr: 0
+  xp: 10
+- name: Cranium Rat
+  cr: 0
+  xp: 10
+- name: Crawling Claw
+  cr: 0
+  xp: 10
+- name: Crocodile
+  cr: 0.5
+  xp: 100
+- name: Cult Fanatic
+  cr: 2
+  xp: 450
+- name: Cultist
+  cr: 0.125
+  xp: 25
+- name: Cyclops
+  cr: 6
+  xp: 2300
+- name: Dao
+  cr: 11
+  xp: 7200
+- name: Darkling
+  cr: 0.5
+  xp: 100
+- name: Darkling Elder
+  cr: 2
+  xp: 450
+- name: Darkmantle
+  cr: 0.5
+  xp: 100
+- name: Death Dog
+  cr: 1
+  xp: 200
+- name: Death Kiss
+  cr: 10
+  xp: 5900
+- name: Death Knight
+  cr: 17
+  xp: 18000
+- name: Death Slaad
+  cr: 10
+  xp: 5900
+- name: Deep Gnome (Svirfneblin)
+  cr: 0.5
+  xp: 100
+- name: Death Tyrant
+  cr: 14
+  xp: 11500
+- name: Deep Rothé
+  cr: 0.25
+  xp: 50
+- name: Deep Scion
+  cr: 3
+  xp: 700
+- name: Deinonychus
+  cr: 1
+  xp: 200
+- name: Deer
+  cr: 0
+  xp: 10
+- name: Demilich
+  cr: 18
+  xp: 20000
+- name: Deva
+  cr: 10
+  xp: 5900
+- name: Devourer
+  cr: 13
+  xp: 10000
+- name: Dimetradon
+  cr: 0.25
+  xp: 50
+- name: Dire Wolf
+  cr: 1
+  xp: 200
+- name: Displacer Beast
+  cr: 3
+  xp: 700
+- name: Diviner
+  cr: 8
+  xp: 3900
+- name: Djinni
+  cr: 11
+  xp: 7200
+- name: Draegloth
+  cr: 7
+  xp: 2900
+- name: Dolphin
+  cr: 0.125
+  xp: 25
+- name: Doppelganger
+  cr: 3
+  xp: 700
+- name: Draft Horse
+  cr: 0.25
+  xp: 50
+- name: Dragon Turtle
+  cr: 17
+  xp: 18000
+- name: Dretch
+  cr: 0.25
+  xp: 50
+- name: Drider
+  cr: 6
+  xp: 2300
+- name: Drow
+  cr: 0.25
+  xp: 50
+- name: Drow Elite Warrior
+  cr: 5
+  xp: 1800
+- name: Drow Mage
+  cr: 7
+  xp: 2900
+- name: Drow Priestess of Lolth
+  cr: 8
+  xp: 3900
+- name: Drowned Ascetic
+  cr: 3
+  xp: 700
+- name: Drowned Assassin
+  cr: 4
+  xp: 1100
+- name: Drowned Blade
+  cr: 2
+  xp: 450
+- name: Druid
+  cr: 2
+  xp: 450
+- name: Drowned Master
+  cr: 9
+  xp: 5000
+- name: Dryad
+  cr: 1
+  xp: 200
+- name: Duodrone
+  cr: 0.25
+  xp: 50
+- name: Duergar
+  cr: 1
+  xp: 200
+- name: Dust Mephit
+  cr: 0.5
+  xp: 100
+- name: Eagle
+  cr: 0
+  xp: 10
+- name: Earth Elemental
+  cr: 5
+  xp: 1800
+- name: Efreeti
+  cr: 11
+  xp: 7200
+- name: Elder Brain
+  cr: 14
+  xp: 11500
+- name: Eldritch Cannon
+  cr: 1
+  xp: 200
+- name: Elephant
+  cr: 4
+  xp: 1100
+- name: Elk
+  cr: 0.25
+  xp: 50
+- name: Empyrean
+  cr: 23
+  xp: 50000
+- name: Enchanter
+  cr: 5
+  xp: 1800
+- name: Erinyes
+  cr: 12
+  xp: 8400
+- name: Ettin
+  cr: 4
+  xp: 1100
+- name: Ettercap
+  cr: 2
+  xp: 450
+- name: Evoker
+  cr: 9
+  xp: 5000
+- name: Fathomer
+  cr: 2
+  xp: 450
+- name: Faerie Dragon
+  cr: 1
+  xp: 200
+- name: Fire Elemental
+  cr: 5
+  xp: 1800
+- name: Fire Giant
+  cr: 9
+  xp: 5000
+- name: Fire Giant Dreadnought
+  cr: 14
+  xp: 11500
+- name: Fire Snake
+  cr: 1
+  xp: 200
+- name: Firenewt Warlock of Imix
+  cr: 1
+  xp: 200
+- name: Firenewt Warrior
+  cr: 0.5
+  xp: 100
+- name: Flail Snail
+  cr: 3
+  xp: 700
+- name: Flameskull
+  cr: 4
+  xp: 1100
+- name: Flind
+  cr: 9
+  xp: 5000
+- name: Flesh Golem
+  cr: 5
+  xp: 1800
+- name: Flumph
+  cr: 0.125
+  xp: 25
+- name: Flying Sword
+  cr: 0.25
+  xp: 50
+- name: Flying Snake
+  cr: 0.125
+  xp: 25
+- name: Fomorian
+  cr: 8
+  xp: 3900
+- name: Frog
+  cr: 0
+  xp: 10
+- name: Froghemoth
+  cr: 10
+  xp: 5900
+- name: Frost Giant
+  cr: 8
+  xp: 3900
+- name: Galeb Duhr
+  cr: 6
+  xp: 2300
+- name: Frost Giant Everlasting One
+  cr: 12
+  xp: 8400
+- name: Gas Spore
+  cr: 0.5
+  xp: 100
+- name: Gauth
+  cr: 6
+  xp: 2300
+- name: Gazer
+  cr: 0.5
+  xp: 100
+- name: Gargoyle
+  cr: 2
+  xp: 450
+- name: Ghast
+  cr: 2
+  xp: 450
+- name: Gelatinous Cube
+  cr: 2
+  xp: 450
+- name: Ghoul
+  cr: 1
+  xp: 200
+- name: Ghost
+  cr: 4
+  xp: 1100
+- name: Giant Ape
+  cr: 7
+  xp: 2900
+- name: Giant Boar
+  cr: 2
+  xp: 450
+- name: Giant Bat
+  cr: 0.25
+  xp: 50
+- name: Giant Badger
+  cr: 0.25
+  xp: 50
+- name: Giant Centipede
+  cr: 0.25
+  xp: 50
+- name: Giant Constrictor Snake
+  cr: 2
+  xp: 450
+- name: Giant Coral Snake
+  cr: 4
+  xp: 1100
+- name: Giant Crab
+  cr: 0.125
+  xp: 25
+- name: Giant Crocodile
+  cr: 5
+  xp: 1800
+- name: Giant Eagle
+  cr: 1
+  xp: 200
+- name: Giant Elk
+  cr: 2
+  xp: 450
+- name: Giant Fire Beetle
+  cr: 0
+  xp: 10
+- name: Giant Frog
+  cr: 0.25
+  xp: 50
+- name: Giant Goat
+  cr: 0.5
+  xp: 100
+- name: Giant Hyena
+  cr: 1
+  xp: 200
+- name: Giant Lizard
+  cr: 0.25
+  xp: 50
+- name: Giant Octopus
+  cr: 1
+  xp: 200
+- name: Giant Owl
+  cr: 0.25
+  xp: 50
+- name: Giant Poisonous Snake
+  cr: 0.25
+  xp: 50
+- name: Giant Rat
+  cr: 0.125
+  xp: 25
+- name: Giant Rat (Diseased)
+  cr: 0.125
+  xp: 25
+- name: Giant Scorpion
+  cr: 3
+  xp: 700
+- name: Giant Sea Eel
+  cr: 0.5
+  xp: 100
+- name: Giant Sea Horse
+  cr: 0.5
+  xp: 100
+- name: Giant Shark
+  cr: 5
+  xp: 1800
+- name: Giant Strider
+  cr: 1
+  xp: 200
+- name: Giant Spider
+  cr: 1
+  xp: 200
+- name: Giant Toad
+  cr: 1
+  xp: 200
+- name: Giant Vulture
+  cr: 1
+  xp: 200
+- name: Giant Wasp
+  cr: 0.5
+  xp: 100
+- name: Giant Weasel
+  cr: 0.125
+  xp: 25
+- name: Gibbering Mouther
+  cr: 2
+  xp: 450
+- name: Girallon
+  cr: 4
+  xp: 1100
+- name: Giant Wolf Spider
+  cr: 0.25
+  xp: 50
+- name: Githyanki Knight
+  cr: 8
+  xp: 3900
+- name: Githyanki Warrior
+  cr: 3
+  xp: 700
+- name: Githzerai Zerth
+  cr: 6
+  xp: 2300
+- name: Githzerai Monk
+  cr: 2
+  xp: 450
+- name: Glabrezu
+  cr: 9
+  xp: 5000
+- name: Gladiator
+  cr: 5
+  xp: 1800
+- name: Gnoll
+  cr: 0.5
+  xp: 100
+- name: Gnoll Fang of Yeenoghu
+  cr: 4
+  xp: 1100
+- name: Gnoll Flesh Gnawer
+  cr: 0.125
+  xp: 25
+- name: Gnoll Hunter
+  cr: 0.5
+  xp: 100
+- name: Gnoll Pack Lord
+  cr: 2
+  xp: 450
+- name: Goat
+  cr: 0
+  xp: 10
+- name: Gnoll Witherling
+  cr: 0.25
+  xp: 50
+- name: Goblin
+  cr: 0.25
+  xp: 50
+- name: Goblin Boss
+  cr: 1
+  xp: 200
+- name: Gold Dragon Wyrmling
+  cr: 3
+  xp: 700
+- name: Goristro
+  cr: 17
+  xp: 18000
+- name: Gorgon
+  cr: 5
+  xp: 1800
+- name: Gray Ooze
+  cr: 0.5
+  xp: 100
+- name: Gray Slaad
+  cr: 9
+  xp: 5000
+- name: Green Dragon Wyrmling
+  cr: 2
+  xp: 450
+- name: Green Guard Drake
+  cr: 2
+  xp: 450
+- name: Green Hag
+  cr: 3
+  xp: 700
+- name: Green Slaad
+  cr: 8
+  xp: 3900
+- name: Grell
+  cr: 3
+  xp: 700
+- name: Grick
+  cr: 2
+  xp: 450
+- name: Grick Alpha
+  cr: 7
+  xp: 2900
+- name: Griffon
+  cr: 2
+  xp: 450
+- name: Grimlock
+  cr: 0.25
+  xp: 50
+- name: Grung Elite Warrior
+  cr: 2
+  xp: 450
+- name: Grung
+  cr: 0.25
+  xp: 50
+- name: Grung Wildling
+  cr: 1
+  xp: 200
+- name: Guard
+  cr: 0.125
+  xp: 25
+- name: Guard Drake
+  cr: 2
+  xp: 450
+- name: Guardian Naga
+  cr: 10
+  xp: 5900
+- name: Gynosphinx
+  cr: 11
+  xp: 7200
+- name: Hadrosaurus
+  cr: 0.25
+  xp: 50
+- name: Harpy
+  cr: 1
+  xp: 200
+- name: Half-Ogre
+  cr: 1
+  xp: 200
+- name: Half-Red Dragon Veteran
+  cr: 5
+  xp: 1800
+- name: Harpy Matriarch
+  cr: 5
+  xp: 1800
+- name: Hawk
+  cr: 0
+  xp: 10
+- name: Hell Hound
+  cr: 3
+  xp: 700
+- name: Helmed Horror
+  cr: 4
+  xp: 1100
+- name: Hill Giant
+  cr: 5
+  xp: 1800
+- name: Hezrou
+  cr: 8
+  xp: 3900
+- name: Hippogriff
+  cr: 1
+  xp: 200
+- name: Hobgoblin
+  cr: 0.5
+  xp: 100
+- name: Hobgoblin Captain
+  cr: 3
+  xp: 700
+- name: Hobgoblin Devastator
+  cr: 4
+  xp: 1100
+- name: Hobgoblin Iron Shadow
+  cr: 2
+  xp: 450
+- name: Homunculus
+  cr: 0
+  xp: 10
+- name: Hobgoblin Warlord
+  cr: 6
+  xp: 2300
+- name: Hook Horror
+  cr: 3
+  xp: 700
+- name: Hunter Shark
+  cr: 2
+  xp: 450
+- name: Horned Devil
+  cr: 11
+  xp: 7200
+- name: Hydra
+  cr: 8
+  xp: 3900
+- name: Hyena
+  cr: 0
+  xp: 10
+- name: Ice Mephit
+  cr: 0.5
+  xp: 100
+- name: Ice Devil
+  cr: 14
+  xp: 11500
+- name: Illithilich
+  cr: 22
+  xp: 41000
+- name: Imp
+  cr: 1
+  xp: 200
+- name: Illusionist
+  cr: 3
+  xp: 700
+- name: Intellect Devourer
+  cr: 2
+  xp: 450
+- name: Invisible Stalker
+  cr: 6
+  xp: 2300
+- name: Iron Golem
+  cr: 16
+  xp: 15000
+- name: Jackal
+  cr: 0
+  xp: 10
+- name: Jackalwere
+  cr: 0.5
+  xp: 100
+- name: K'Thar
+  cr: 6
+  xp: 2300
+  env: Arctic
+- name: Juvenile Kraken
+  cr: 14
+  xp: 11500
+- name: Kenku
+  cr: 0.25
+  xp: 50
+- name: Killer Whale
+  cr: 3
+  xp: 700
+- name: Ki-rin
+  cr: 12
+  xp: 8400
+- name: Knight
+  cr: 3
+  xp: 700
+- name: Koalinth
+  cr: 0.5
+  xp: 100
+- name: Kobold Dragonshield
+  cr: 1
+  xp: 200
+- name: Kobold Inventor
+  cr: 0.25
+  xp: 50
+- name: Kobold
+  cr: 0.125
+  xp: 25
+- name: Koalinth Sergeant
+  cr: 2
+  xp: 450
+- name: Kobold Scale Sorcerer
+  cr: 1
+  xp: 200
+- name: Korred
+  cr: 7
+  xp: 2900
+- name: Kraken
+  cr: 23
+  xp: 50000
+- name: Kuo-Toa
+  cr: 0.25
+  xp: 50
+- name: Kraken Priest
+  cr: 5
+  xp: 1800
+- name: Kuo-Toa Archpriest
+  cr: 6
+  xp: 2300
+- name: Kuo-Toa Whip
+  cr: 1
+  xp: 200
+- name: Kysh (Triton)
+  cr: 1
+  xp: 200
+- name: Lamia
+  cr: 4
+  xp: 1100
+- name: Lemure
+  cr: 0
+  xp: 10
+- name: Lich
+  cr: 21
+  xp: 33000
+- name: Leucrotta
+  cr: 3
+  xp: 700
+- name: Lion
+  cr: 1
+  xp: 200
+- name: Lizard
+  cr: 0
+  xp: 10
+- name: Living Iron Statue
+  cr: 5
+  xp: 1800
+- name: Lizard King/Queen
+  cr: 4
+  xp: 1100
+- name: Lizardfolk
+  cr: 0.5
+  xp: 100
+- name: Lizardfolk Commoner
+  cr: 0.25
+  xp: 50
+- name: Lizardfolk Shaman
+  cr: 2
+  xp: 450
+- name: Lizardfolk Scaleshield
+  cr: 1
+  xp: 200
+- name: Lizardfolk Render
+  cr: 3
+  xp: 700
+- name: Lizardfolk Subchief
+  cr: 3
+  xp: 700
+- name: Locathah Hunter
+  cr: 2
+  xp: 450
+- name: Locathah
+  cr: 0.5
+  xp: 100
+- name: Lt. Tucker
+  cr: 5
+  xp: 1800
+- name: Mage
+  cr: 6
+  xp: 2300
+- name: Magma Mephit
+  cr: 0.5
+  xp: 100
+- name: Magmin
+  cr: 0.5
+  xp: 100
+- name: Mammoth
+  cr: 6
+  xp: 2300
+- name: Manticore
+  cr: 3
+  xp: 700
+- name: Manes
+  cr: 0.125
+  xp: 25
+- name: Marid
+  cr: 11
+  xp: 7200
+- name: Marilith
+  cr: 16
+  xp: 15000
+- name: Martial Arts Adept
+  cr: 3
+  xp: 700
+- name: Master Thief
+  cr: 5
+  xp: 1800
+- name: Mastiff
+  cr: 0.125
+  xp: 25
+- name: Maw Demon
+  cr: 1
+  xp: 200
+- name: Maw of Sekolah
+  cr: 7
+  xp: 2900
+- name: Medusa
+  cr: 6
+  xp: 2300
+- name: Bandit
+  cr: 0.125
+  xp: 25
+- name: Camel
+  cr: 0.125
+  xp: 25
+- name: Giant Toad
+  cr: 1
+  xp: 200
+- name: Hippogriff
+  cr: 1
+  xp: 200
+- name: Hezrou
+  cr: 8
+  xp: 3900
+- name: Mastiff
+  cr: 0.125
+  xp: 25
+- name: Merfolk
+  cr: 0.125
+  xp: 25
+- name: Mimic
+  cr: 2
+  xp: 450
+- name: Merrow
+  cr: 2
+  xp: 450
+- name: Minotaur
+  cr: 3
+  xp: 700
+- name: Mule
+  cr: 0.125
+  xp: 25
+- name: Minotaur Skeleton
+  cr: 2
+  xp: 450
+- name: Mummy
+  cr: 3
+  xp: 700
+- name: Mummy Lord
+  cr: 15
+  xp: 13000
+- name: Nalfeshnee
+  cr: 13
+  xp: 10000
+- name: Night Hag
+  cr: 5
+  xp: 1800
+- name: Nightmare
+  cr: 3
+  xp: 700
+- name: Ochre Jelly
+  cr: 2
+  xp: 450
+- name: Noble
+  cr: 0.125
+  xp: 25
+- name: Ogre
+  cr: 2
+  xp: 450
+- name: Octopus
+  cr: 0
+  xp: 10
+- name: Ogre Zombie
+  cr: 2
+  xp: 450
+- name: Orc
+  cr: 0.5
+  xp: 100
+- name: Otyugh
+  cr: 5
+  xp: 1800
+- name: Oni
+  cr: 7
+  xp: 2900
+- name: Owl
+  cr: 0
+  xp: 10
+- name: Owlbear
+  cr: 3
+  xp: 700
+- name: Panther
+  cr: 0.25
+  xp: 50
+- name: Phase Spider
+  cr: 3
+  xp: 700
+- name: Pegasus
+  cr: 2
+  xp: 450
+- name: Planetar
+  cr: 16
+  xp: 15000
+- name: Pit Fiend
+  cr: 20
+  xp: 25000
+- name: Plesiosaurus
+  cr: 2
+  xp: 450
+- name: Poisonous Snake
+  cr: 0.125
+  xp: 25
+- name: Polar Bear
+  cr: 2
+  xp: 450
+- name: Pony
+  cr: 0.125
+  xp: 25
+- name: Priest
+  cr: 2
+  xp: 450
+- name: Quasit
+  cr: 1
+  xp: 200
+- name: Pseudodragon
+  cr: 0.25
+  xp: 50
+- name: Purple Worm
+  cr: 15
+  xp: 13000
+- name: Quipper
+  cr: 0
+  xp: 10
+- name: Rakshasa
+  cr: 13
+  xp: 10000
+- name: Rat
+  cr: 0
+  xp: 10
+- name: Raven
+  cr: 0
+  xp: 10
+- name: Red Dragon Wyrmling
+  cr: 4
+  xp: 1100
+- name: Reef Shark
+  cr: 0.5
+  xp: 100
+- name: Remorhaz
+  cr: 11
+  xp: 7200
+- name: Riding Horse
+  cr: 0.25
+  xp: 50
+- name: Rhinoceros
+  cr: 2
+  xp: 450
+- name: Roper
+  cr: 5
+  xp: 1800
+- name: Roc
+  cr: 11
+  xp: 7200
+- name: Rust Monster
+  cr: 0.5
+  xp: 100
+- name: Rug of Smothering
+  cr: 2
+  xp: 450
+- name: Saber-Toothed Tiger
+  cr: 2
+  xp: 450
+- name: Salamander
+  cr: 5
+  xp: 1800
+- name: Sahuagin
+  cr: 0.5
+  xp: 100
+- name: Scorpion
+  cr: 0
+  xp: 10
+- name: Satyr
+  cr: 0.5
+  xp: 100
+- name: Scout
+  cr: 0.5
+  xp: 100
+- name: Sea Hag
+  cr: 2
+  xp: 450
+- name: Sea Horse
+  cr: 0
+  xp: 10
+- name: Shadow
+  cr: 0.5
+  xp: 100
+- name: Shambling Mound
+  cr: 5
+  xp: 1800
+- name: Shrieker
+  cr: 0
+  xp: 10
+- name: Shield Guardian
+  cr: 7
+  xp: 2900
+- name: Spider
+  cr: 0
+  xp: 10
+- name: Solar
+  cr: 21
+  xp: 33000
+- name: Spirit Naga
+  cr: 8
+  xp: 3900
+- name: Skeleton
+  cr: 0.25
+  xp: 50
+- name: Specter
+  cr: 1
+  xp: 200
+- name: Silver Dragon Wyrmling
+  cr: 2
+  xp: 450
+- name: Stirge
+  cr: 0.125
+  xp: 25
+- name: Sprite
+  cr: 0.25
+  xp: 50
+- name: Spy
+  cr: 1
+  xp: 200
+- name: Stone Golem
+  cr: 10
+  xp: 5900
+- name: Steam Mephit
+  cr: 0.25
+  xp: 50
+- name: Stone Giant
+  cr: 7
+  xp: 2900
+- name: Storm Giant
+  cr: 13
+  xp: 10000
+- name: Succubus/Incubus
+  cr: 4
+  xp: 1100
+- name: Swarm of Bats
+  cr: 0.25
+  xp: 50
+- name: Swarm of Centipedes
+  cr: 0.5
+  xp: 100
+- name: Swarm of Beetles
+  cr: 0.5
+  xp: 100
+- name: Swarm of Insects
+  cr: 0.5
+  xp: 100
+- name: Swarm of Quippers
+  cr: 1
+  xp: 200
+- name: Swarm of Poisonous Snakes
+  cr: 2
+  xp: 450
+- name: Swarm of Rats
+  cr: 0.25
+  xp: 50
+- name: Swarm of Ravens
+  cr: 0.25
+  xp: 50
+- name: Swarm of Wasps
+  cr: 0.5
+  xp: 100
+- name: Swarm of Spiders
+  cr: 0.5
+  xp: 100
+- name: Thug
+  cr: 0.5
+  xp: 100
+- name: Tarrasque
+  cr: 30
+  xp: 155000
+- name: Tiger
+  cr: 1
+  xp: 200
+- name: Tribal Warrior
+  cr: 0.125
+  xp: 25
+- name: Treant
+  cr: 9
+  xp: 5000
+- name: Triceratops
+  cr: 5
+  xp: 1800
+- name: Troll
+  cr: 5
+  xp: 1800
+- name: Unicorn
+  cr: 5
+  xp: 1800
+- name: Tyrannosaurus Rex
+  cr: 8
+  xp: 3900
+- name: Veteran
+  cr: 3
+  xp: 700
+- name: Vampire Spawn
+  cr: 5
+  xp: 1800
+- name: Violet Fungus
+  cr: 0.25
+  xp: 50
+- name: Vampire
+  cr: 13
+  xp: 10000
+- name: Vulture
+  cr: 0
+  xp: 10
+- name: Warhorse Skeleton
+  cr: 0.5
+  xp: 100
+- name: Warhorse
+  cr: 0.5
+  xp: 100
+- name: Vrock
+  cr: 6
+  xp: 2300
+- name: Water Elemental
+  cr: 5
+  xp: 1800
+- name: Weasel
+  cr: 0
+  xp: 10
+- name: Werebear
+  cr: 5
+  xp: 1800
+- name: Wereboar
+  cr: 4
+  xp: 1100
+- name: Weretiger
+  cr: 4
+  xp: 1100
+- name: Wererat
+  cr: 2
+  xp: 450
+- name: Werewolf
+  cr: 3
+  xp: 700
+- name: White Dragon Wyrmling
+  cr: 2
+  xp: 450
+- name: Will-o'-Wisp
+  cr: 2
+  xp: 450
+- name: Winter Wolf
+  cr: 3
+  xp: 700
+- name: Worg
+  cr: 0.5
+  xp: 100
+- name: Wight
+  cr: 3
+  xp: 700
+- name: Wolf
+  cr: 0.25
+  xp: 50
+- name: Wraith
+  cr: 5
+  xp: 1800
+- name: Xorn
+  cr: 5
+  xp: 1800
+- name: Wyvern
+  cr: 6
+  xp: 2300
+- name: Young Brass Dragon
+  cr: 6
+  xp: 2300
+- name: Young Black Dragon
+  cr: 7
+  xp: 2900
+- name: Young Blue Dragon
+  cr: 9
+  xp: 5000
+- name: Young Bronze Dragon
+  cr: 8
+  xp: 3900
+- name: Young Gold Dragon
+  cr: 10
+  xp: 5900
+- name: Young Copper Dragon
+  cr: 7
+  xp: 2900
+- name: Young Green Dragon
+  cr: 8
+  xp: 3900
+- name: Young Red Dragon
+  cr: 10
+  xp: 5900
+- name: Zombie
+  cr: 0.25
+  xp: 50
+- name: Young Silver Dragon
+  cr: 9
+  xp: 5000
+- name: Young White Dragon
+  cr: 6
+  xp: 2300
+- name: Animated Threads
+  cr: 0.5
+  xp: 100
+- name: Nyli, Mischievous Threadling
+  cr: 1
+  xp: 200
+- name: Threadbeast Golem
+  cr: 4
+  xp: 1100
+- name: Downy Pseudodragon
+  cr: 0.25
+  xp: 50
+  env: Forest
+- name: Moon Moth Swarm
+  cr: 0.25
+  xp: 50
+- name: Sprightly Blink Bunny
+  cr: 0.25
+  xp: 50
+- name: Velvet Hedgehog
+  cr: 0.25
+  xp: 50
+- name: Mischievous Faerie Dragon
+  cr: 2
+  xp: 450
+- name: Celestial Fawn
+  cr: 3
+  xp: 700
+  env: Forest
+- name: Shimmering Moth Swarm
+  cr: 0.25
+  xp: 50
+- name: Starwing Blink Hare
+  cr: 1
+  xp: 200
+- name: Vine Blight
+  cr: 0.5
+  xp: 100
+- name: Twig Blight
+  cr: 0.125
+  xp: 25
+- name: Tree Blight
+  cr: 7
+  xp: 2900
+- name: Smoke Mephit
+  cr: 0.25
+  xp: 50
+- name: Scarecrow
+  cr: 1
+  xp: 200
+- name: Poltergeist
+  cr: 2
+  xp: 450
+- name: Needle Blight
+  cr: 0.25
+  xp: 50
