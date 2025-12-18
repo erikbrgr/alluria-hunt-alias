@@ -8,10 +8,19 @@ This script extracts the following fields for each creature:
 - experiencePoints
 - environment
 - flavor (description)
+
+Requirements:
+    - PyYAML: Install with 'pip install pyyaml'
 """
 
 import json
-import yaml
+import sys
+
+try:
+    import yaml
+except ImportError:
+    print("Error: PyYAML is not installed. Please install it with: pip install pyyaml")
+    sys.exit(1)
 
 
 def export_creatures_to_yaml(input_file='critterdb.json', output_file='creatures.yaml'):
@@ -21,10 +30,25 @@ def export_creatures_to_yaml(input_file='critterdb.json', output_file='creatures
     Args:
         input_file: Path to the input JSON file (default: critterdb.json)
         output_file: Path to the output YAML file (default: creatures.yaml)
+        
+    Raises:
+        FileNotFoundError: If the input file does not exist
+        json.JSONDecodeError: If the input file contains invalid JSON
+        IOError: If there are issues writing the output file
     """
     # Read the JSON file
-    with open(input_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    try:
+        with open(input_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: Input file '{input_file}' not found.")
+        sys.exit(1)
+    except json.JSONDecodeError as e:
+        print(f"Error: Invalid JSON in '{input_file}': {e}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Error reading '{input_file}': {e}")
+        sys.exit(1)
     
     # Extract creature data
     creatures = []
@@ -39,8 +63,15 @@ def export_creatures_to_yaml(input_file='critterdb.json', output_file='creatures
         creatures.append(creature_data)
     
     # Write to YAML file
-    with open(output_file, 'w', encoding='utf-8') as f:
-        yaml.dump(creatures, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            yaml.dump(creatures, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+    except IOError as e:
+        print(f"Error: Cannot write to '{output_file}': {e}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Error writing YAML file: {e}")
+        sys.exit(1)
     
     print(f"Successfully exported {len(creatures)} creatures to {output_file}")
 
