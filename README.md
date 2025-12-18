@@ -36,9 +36,9 @@ pip install PyYAML
 The script exports the following fields for each creature:
 
 - **name** - The creature's name
-- **challengeRating** - The creature's challenge rating (CR)
-- **experiencePoints** - Experience points awarded for defeating the creature
-- **environment** - The creature's natural environment
+- **cr** - The creature's challenge rating (CR)
+- **xp** - Experience points awarded for defeating the creature
+- **env** - The creature's natural environment (only included if not empty)
 
 ## Output Format
 
@@ -46,13 +46,15 @@ The output YAML file contains a list of creature entries. Example:
 
 ```yaml
 - name: Aarakocra
-  challengeRating: 0.25
-  experiencePoints: 50
-  environment: ''
+  cr: 0.25
+  xp: 50
 - name: Adult Blue Dragon
-  challengeRating: 16
-  experiencePoints: 15000
-  environment: ''
+  cr: 16
+  xp: 15000
+- name: K'Thar
+  cr: 5
+  xp: 1800
+  env: Arctic
 ```
 
 ## Error Handling

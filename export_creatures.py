@@ -4,9 +4,9 @@ Export creature data from critterdb.json to YAML format.
 
 This script extracts the following fields for each creature:
 - name
-- challengeRating
-- experiencePoints
-- environment
+- cr (challenge rating)
+- xp (experience points)
+- env (environment, only if not empty)
 
 Requirements:
     - PyYAML: Install with 'pip install PyYAML'
@@ -54,10 +54,13 @@ def export_creatures_to_yaml(input_file='critterdb.json', output_file='creatures
     for creature in data.get('creatures', []):
         creature_data = {
             'name': creature.get('name', ''),
-            'challengeRating': creature.get('stats', {}).get('challengeRating', 0),
-            'experiencePoints': creature.get('stats', {}).get('experiencePoints', 0),
-            'environment': creature.get('flavor', {}).get('environment', ''),
+            'cr': creature.get('stats', {}).get('challengeRating', 0),
+            'xp': creature.get('stats', {}).get('experiencePoints', 0),
         }
+        # Only include environment if it's not empty
+        env = creature.get('flavor', {}).get('environment', '')
+        if env:
+            creature_data['env'] = env
         creatures.append(creature_data)
     
     # Write to YAML file
