@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+"""
+Export creature data from critterdb.json to YAML format.
+
+This script extracts the following fields for each creature:
+- name
+- challengeRating
+- experiencePoints
+- environment
+- flavor (description)
+"""
+
+import json
+import yaml
+
+
+def export_creatures_to_yaml(input_file='critterdb.json', output_file='creatures.yaml'):
+    """
+    Export creature data from JSON to YAML format.
+    
+    Args:
+        input_file: Path to the input JSON file (default: critterdb.json)
+        output_file: Path to the output YAML file (default: creatures.yaml)
+    """
+    # Read the JSON file
+    with open(input_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    # Extract creature data
+    creatures = []
+    for creature in data.get('creatures', []):
+        creature_data = {
+            'name': creature.get('name', ''),
+            'challengeRating': creature.get('stats', {}).get('challengeRating', 0),
+            'experiencePoints': creature.get('stats', {}).get('experiencePoints', 0),
+            'environment': creature.get('flavor', {}).get('environment', ''),
+            'flavor': creature.get('flavor', {}).get('description', '')
+        }
+        creatures.append(creature_data)
+    
+    # Write to YAML file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        yaml.dump(creatures, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+    
+    print(f"Successfully exported {len(creatures)} creatures to {output_file}")
+
+
+if __name__ == '__main__':
+    export_creatures_to_yaml()

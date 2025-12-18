@@ -1,0 +1,3055 @@
+- name: Aarakocra
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Abjurer
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Aboleth
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Adult Blue Dracolich
+  challengeRating: 18
+  experiencePoints: 20000
+  environment: ''
+  flavor: "<b>Lair Actions:</b>\nOn initiative count 20 (losing initiative ties),\
+    \ the dragon takes a lair action to cause one of the following effects; the dragon\
+    \ can't use the same effect two rounds in a row: \n• Part of the ceiling collapses\
+    \ above one creature that the dragon can see within 120 feet of it. The creature\
+    \ must succeed on a DC 15 Dexterity saving throw or take 10 (3d6) bludgeoning\
+    \ damage and be knocked prone and buried. The buried target is restrained and\
+    \ to breathe or stand up. A creature can take an action to make a DC 10 Strength\
+    \ check, ending the buried state on a success.\n• A cloud of sand swirls about\
+    \ in a 20-foot-radius sphere centered on a point the dragon can see within 120\
+    \ feet of it. The cloud spreads around corners. Each creature in the cloud must\
+    \ succeed on a DC 15 Constitution saving throw or be blinded for 1 minute. A creature\
+    \ can repeat the saving throw at the end of each of its turns, ending the effect\
+    \ on itself on a success.\n• Lightning arcs, forming a 5-foot-wide line between\
+    \ two of the lair's solid surfaces that the dragon can see. They must be within\
+    \ 120 feet of the dragon and 120 feet of each other. Each creature in that line\
+    \ must succeed on a DC 15 Dexterity saving throw or take 10 (3d6) lightning damage.\n\
+    <b>Regional Effects:</b>\nThe region containing a legendary blue dragon's lair\
+    \ is warped by the dragon's magic, which creates one or more of the following\
+    \ effects:\n• Thunderstorms rage within 6 miles of the lair.\n• Dust devils scour\
+    \ the land within 6 miles of the lair. A dust devil has the statistics of an air\
+    \ elemental, but it can't fly, has a speed of 50 feet, and has an Intelligence\
+    \ and Charisma of 1 (- 5).\n• Hidden sinkholes form in and around the dragon's\
+    \ lair. A sinkhole can be spotted from a safe distance with a successful DC 20\
+    \ Wisdom (Perception) check. Otherwise, the first creature to step on the thin\
+    \ crust covering the sinkhole must succeed on a DC 15 Dexterity saving throw or\
+    \ fall 1d6 x 10 feet into the sinkhole.\nIf the dragon dies, the dust devils disappear\
+    \ immediately, and the thunderstorms abate within 1d10 days. Any sinkholes remain\
+    \ where they are."
+- name: Adult Black Dragon
+  challengeRating: 14
+  experiencePoints: 11500
+  environment: ''
+  flavor: ''
+- name: Acolyte
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Abominable Yeti
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Adult Blue Dragon
+  challengeRating: 16
+  experiencePoints: 15000
+  environment: ''
+  flavor: ''
+- name: Adult Copper Dragon
+  challengeRating: 14
+  experiencePoints: 11500
+  environment: ''
+  flavor: ''
+- name: Adult Green Dragon
+  challengeRating: 15
+  experiencePoints: 13000
+  environment: ''
+  flavor: ''
+- name: Adult Gold Dragon
+  challengeRating: 17
+  experiencePoints: 18000
+  environment: ''
+  flavor: ''
+- name: Adult Bronze Dragon
+  challengeRating: 15
+  experiencePoints: 13000
+  environment: ''
+  flavor: ''
+- name: Adult Red Dragon
+  challengeRating: 17
+  experiencePoints: 18000
+  environment: ''
+  flavor: ''
+- name: Adult Silver Dragon
+  challengeRating: 16
+  experiencePoints: 15000
+  environment: ''
+  flavor: ''
+- name: Adult White Dragon
+  challengeRating: 13
+  experiencePoints: 10000
+  environment: ''
+  flavor: ''
+- name: Air Elemental
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Alhoon
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: Any evil alignment
+- name: Allosaurus
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Amphisbaena
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: Found in Danger at Dunwater, these strange reptiles have a head at either
+    end of their serpentine bodies, each one equipped with venomous fangs. To move,
+    an amphisbaena uses one head to grip the neck of its other head, forming a hoop
+    that rolls over the ground.
+- name: Ancient Black Dragon
+  challengeRating: 21
+  experiencePoints: 33000
+  environment: ''
+  flavor: ''
+- name: Ancient Blue Dragon
+  challengeRating: 23
+  experiencePoints: 50000
+  environment: ''
+  flavor: ''
+- name: Ancient Brass Dragon
+  challengeRating: 20
+  experiencePoints: 25000
+  environment: ''
+  flavor: ''
+- name: Ancient Bronze Dragon
+  challengeRating: 22
+  experiencePoints: 41000
+  environment: ''
+  flavor: ''
+- name: Ancient Copper Dragon
+  challengeRating: 21
+  experiencePoints: 33000
+  environment: ''
+  flavor: ''
+- name: Ancient Gold Dragon
+  challengeRating: 24
+  experiencePoints: 62000
+  environment: ''
+  flavor: ''
+- name: Ancient Green Dragon
+  challengeRating: 22
+  experiencePoints: 41000
+  environment: ''
+  flavor: ''
+- name: Ancient Red Dragon
+  challengeRating: 24
+  experiencePoints: 62000
+  environment: ''
+  flavor: ''
+- name: Ancient Silver Dragon
+  challengeRating: 23
+  experiencePoints: 50000
+  environment: ''
+  flavor: ''
+- name: Ancient White Dragon
+  challengeRating: 20
+  experiencePoints: 25000
+  environment: ''
+  flavor: ''
+- name: Androsphinx
+  challengeRating: 17
+  experiencePoints: 18000
+  environment: ''
+  flavor: ''
+- name: Animated Armor
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Ankheg
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Ankylosaurus
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Annis Hag
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: "<b>Lair Actions:</b>\nOn initiative count 20 (losing initiative ties),\
+    \ the hag can take a lair action to cause one of the following effects, but can't\
+    \ use the same effect two rounds in a row:\n• Until initiative count 20 on the\
+    \ next round, the hag can pass through solid walls, doors, ceilings, and floors\
+    \ as if the surfaces weren't there.\n• The hag targets any number of doors and\
+    \ windows that she can see, causing each one to either open or close as she wishes.\
+    \ Closed doors can be magically locked (requiring a successful DC 20 Strength\
+    \ check to force open) until she chooses to make them unlocked, or until she uses\
+    \ this lair action again to open them. \n• The hag creates a thick cloud of caustic\
+    \ black smoke that fills a 20-foot-radius sphere centered on a point she can see\
+    \ within 120 feet her. The cloud lasts until initiative count 20 on the next round.\
+    \ Creatures and objects in or behind the smoke are heavily obscured. A creature\
+    \ that enters the cloud for the first time on a turn or starts its turn there\
+    \ takes 10 (3d6) acid damage. \n<b>Regional Effects:</b>\nThe region within 1\
+    \ mile of a grandmother hag's lair is warped by the creature's fell magic, which\
+    \ creates one or more of the following effects:\n• Birds, rodents, snakes, spiders,\
+    \ or toads (or some other creatures appropriate to the hag) are found in great\
+    \ profusion.\n• Beasts that have an Intelligence score of 2 or lower are charmed\
+    \ by the hag and directed to be aggressive toward intruders in the area.\n• Strange\
+    \ carved figurines, twig fetishes, or rag dolls magically appear in trees.\n•\
+    \ The gravel stones on a safe-looking path, road, or trails occasionally become\
+    \ sharp for 100-foot intervals. Walking on these areas is like walking on caltrops.\n\
+    • Small avalanches of rock intermittently fall, blocking a path or burying intruders.\
+    \ A buried creature is restrained and has to hold its breath until it is dug out.\n\
+    • Strange laughter, sounding like that of children or the hag herself, occasionally\
+    \ pierces the silence.\n• Small cairns appear along the route of travelers, containing\
+    \ anything from mysterious bones to nothing at all. These cairns might be haunted\
+    \ by skeletons, specters, or hostile fey."
+- name: Ape
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Apprentice Wizard
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Arcanaloth
+  challengeRating: 12
+  experiencePoints: 8400
+  environment: ''
+  flavor: ''
+- name: Archdruid
+  challengeRating: 12
+  experiencePoints: 8400
+  environment: ''
+  flavor: ''
+- name: Archer
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Archmage
+  challengeRating: 12
+  experiencePoints: 8400
+  environment: ''
+  flavor: ''
+- name: Assassin
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Assassin Vine
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: 'An assassin vine is an ambulatory plant that collects its fertilizer by
+    grabbing and crushing prey and depositing the carcasses near its roots. It usually
+    stays put unless it needs to seek out prey. A mature plant consists of a main
+    vine, about 20 feet long. Smaller vines up to 5 feet long branch from the main
+    vine every 6 inches. In late summer, the secondary vines produce bunches of small
+    fruits that resemble wild grapes. The fruit is tough and has a hearty but bitter
+    flavor.
+
+
+    A subterranean variant grows near hot springs, volcanic vents, and other sources
+    of heat. An assassin vine growing underground usually generates enough offal to
+    support a thriving colony of mushrooms and other fungi, which spring up around
+    the plant and help conceal it.'
+- name: Aurochs
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Awakened Shrub
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Awakened Tree
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Axe Beak
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Azer
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Babau
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Baboon
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Badger
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Balor
+  challengeRating: 19
+  experiencePoints: 22000
+  environment: ''
+  flavor: ''
+- name: Banderhobb
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Bandit
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Bandit Captain
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Barbed Devil
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Banshee
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Bard
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Barghest
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Barlgura
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Basilisk
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Bearded Devil
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Bat
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Behir
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Beholder
+  challengeRating: 13
+  experiencePoints: 10000
+  environment: ''
+  flavor: "A beholder encountered in its lair has a challenge rating of 14 (11,500\
+    \ XP). \n<b>Lair Actions:</b>\nWhen fighting inside its lair, a beholder can invoke\
+    \ the ambient magic to take lair actions. On initiative count 20 (losing initiative\
+    \ ties), the beholder can take one lair action to cause one of the following effects:\n\
+    • A 50-foot square area of ground within 120 feet of the beholder becomes slimy;\
+    \ that area is difficult terrain until initiative count 20 on the next round.\n\
+    • Walls within 120 feet of the beholder sprout grasping appendages until initiative\
+    \ count 20 on the round after next. Each creature of the beholder's choice that\
+    \ starts its turn within 10 feet of such a wall must succeed on a DC 15 Dexterity\
+    \ saving throw or be grappled. Escaping requires a successful DC 15 Strength (Athletics)\
+    \ or Dexterity (Acrobatics) check.\n• An eye opens on a solid surface within 60\
+    \ feet of the beholder. One random eye ray of the beholder shoots from that eye\
+    \ at a target of the beholder's choice that it can see. The eye then closes and\
+    \ disappears.\nThe beholder can't repeat an effect until they have all been used,\
+    \ and it can't use the same effect two rounds in a row.\n<b>Regional Effects:</b>\n\
+    A region containing a beholder's lair is warped by the creature's'unnatural presence,\
+    \ which creates one or more of the following effects:\n• Creatures within 1 mile\
+    \ of the beholder's lair sometimes feel as if they're being watched when they\
+    \ aren't.\n• When the beholder sleeps, minor warps in reality occur within 1 mile\
+    \ of its lair and then vanish 24 hours later. Marks on cave walls might change\
+    \ subtly, an eerie trinket might appear where none existed before, harmless slime\
+    \ might coat a statue, and so on. These effects apply only to natural surfaces\
+    \ and to nonmagical objects that aren't on anyone's person.\nIf the beholder dies,\
+    \ these effects fade over the course of 1d10 days."
+- name: Berserker
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Bheur Hag
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: "<b>Lair Actions:</b>\nOn initiative count 20 (losing initiative ties),\
+    \ the hag can take a lair action to cause one of the following effects, but can't\
+    \ use the same effect two rounds in a row:\n• Until initiative count 20 on the\
+    \ next round, the hag can pass through solid walls, doors, ceilings, and floors\
+    \ as if the surfaces weren't there.\n• The hag targets any number of doors and\
+    \ windows that she can see, causing each one to either open or close as she wishes.\
+    \ Closed doors can be magically locked (requiring a successful DC 20 Strength\
+    \ check to force open) until she chooses to make them unlocked, or until she uses\
+    \ this lair action again to open them. \n• The hag creates a blizzard in a 40-foot-high,\
+    \ 20-foot radius cylinder centered on a point she can see within 120 feet of her.\
+    \ The effect lasts until initiative count 20 on the next round. The blizzard lightly\
+    \ obscures every creature and object in the area for the duration. A creature\
+    \ that enters the blizzard for the first time on a turn or starts its turn there\
+    \ is blinded until initiative count 20 on the next round.\n<b>Regional Effects:</b>\n\
+    The region within 1 mile of a grandmother hag's lair is warped by the creature's\
+    \ fell magic, which creates one or more of the following effects:\n• Birds, rodents,\
+    \ snakes, spiders, or toads (or some other creatures appropriate to the hag) are\
+    \ found in great profusion.\n• Beasts that have an Intelligence score of 2 or\
+    \ lower are charmed by the hag and directed to be aggressive toward intruders\
+    \ in the area.\n• Strange carved figurines, twig fetishes, or rag dolls magically\
+    \ appear in trees.\n• Small avalanches of snow intermittently fall, blocking a\
+    \ path or burying intruders. A buried creature is restrained and has to hold its\
+    \ breath until it is dug out.\n• Human-sized blocks of ice appear, containing\
+    \ frozen corpses. These corpses might break free and attack as zombies, or their\
+    \ spirits might attack as specters.\n• Blizzards come without warning. A blizzard\
+    \ occurs once every 2d12 hours and lasts ld3 hours. During a storm, creatures\
+    \ moving overland travel at half normal speed, and normal visibility is reduced\
+    \ to 30 feet.\n• Roads, paths, and trails twist and turn back on themselves, making\
+    \ navigation in the area exceedingly difficult."
+- name: Beholder Zombie
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Black Bear
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Black Guard Drake
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Black Dragon Wyrmling
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Blackguard
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: Any non-good alignment
+- name: Black Pudding
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Blink Dog
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Blood Hawk
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Blue Dragon Wyrmling
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Blue Guard Drake
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Boar
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Blue Slaad
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Bodak
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Boggle
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Bone Devil
+  challengeRating: 12
+  experiencePoints: 8400
+  environment: ''
+  flavor: ''
+- name: Bone Naga (Spirit)
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Bone Naga (Guardian)
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Brass Dragon Wyrmling
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Brontosaurus
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Brown Bear
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Bronze Dragon Wyrmling
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Bugbear
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Bugbear Chief
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Bulette
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Bullywug
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Bullywug Croaker
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: Some bullywugs are born with the ability to weave magic into their songs.
+    These rare specimens are raised in protected enclaves where they are taught to
+    use their magic to both heal and harm. As demonstrated in Danger at Dunwater,
+    they are among the most pompous of bullywugs.
+- name: Bullywug Royal
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: The largest and most intelligent bullywugs invariably end up leading their
+    kind. These sneering specimens dress in robes made from leather, rough cloth,
+    and bits of marsh plants. As seen in Danger at Dunwater, a bullywug royal is often
+    accompanied by and mounted astride a giant toad.
+- name: Cambion
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: Any evil alignment
+- name: Camel
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Captain Spunkmire
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Carrion Crawler
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Cat
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Catoblepas
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Cave Bear
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Cave Fisher
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Chain Devil
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Centaur
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Champion
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Chasme
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Chitine
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Chimera
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Chuul
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Choldrith
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Clay Golem
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Cloaker
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Cloud Giant
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Cloud Giant Smiling One
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Cockatrice
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Commoner
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Conjurer
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Constrictor Snake
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Copper Dragon Wyrmling
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Couatl
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Cow
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Crab
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Cranium Rat
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Crawling Claw
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Crocodile
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Cult Fanatic
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Cultist
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Cyclops
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Dao
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Darkling
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Darkling Elder
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Darkmantle
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Death Dog
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Death Kiss
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Death Knight
+  challengeRating: 17
+  experiencePoints: 18000
+  environment: ''
+  flavor: ''
+- name: Death Slaad
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Deep Gnome (Svirfneblin)
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Death Tyrant
+  challengeRating: 14
+  experiencePoints: 11500
+  environment: ''
+  flavor: 'A death tyrant encountered in its lair has a challenge rating of 15 (13,000
+    XP).
+
+    <b>Lair Actions:</b>
+
+    When fighting inside its lair, a death tyrant can invoke the ambient magic to
+    take lair actions. On initiative count 20 (losing initiative ties), the death
+    tyrant can take one lair action to cause one of the following effects:
+
+    • An area that is a 50-foot cube within 120 feet of the tyrant is filled with
+    spectral eyes and tentacles. To creatures other than the death tyrant, that area
+    is lightly obscured and difficult terrain until initiative count 20 on the next
+    round.
+
+    • Walls sprout spectral appendages until initiative count 20 on the round after
+    next. Any creature, including one on the Ethereal Plane, that is hostile to the
+    tyrant and starts its turn within 10 feet of a wall must succeed on a DC 17 Dexterity
+    saving throw or be grappled. Escaping requires a successful DC 17 Strength (Athletics)
+    or Dexterity (Acrobatics) check.
+
+    • A spectral eye opens in the air at a point within 50 feet of the tyrant. One
+    random eye ray of the tyrant shoots from that eye, which is considered to be an
+    ethereal source, at a target of the tyrant''s choice. The eye then closes and
+    disappears.
+
+    The death tyrant can''t repeat an effect until all three have been used, and it
+    can''t use the same effect on consecutive rounds.
+
+    <b>Regional Effects:</b>
+
+    A region containing a death tyrant''s lair is warped by the creature''s unnatural
+    presence, which creates one or more of the following effects:
+
+    • Creatures within 1 mile of the tyrant''s lair sometimes feel as if they''re
+    being watched even when they aren''t.
+
+    • When a creature hostile to the tyrant and aware of its existence finishes a
+    long rest within 1 mile of the tyrant''s lair, roll a d20 for that creature. On
+    a roll of 10 or lower, the creature is subjected to one random eye ray of the
+    tyrant.
+
+    If the death tyrant dies, these effects fade over the course of 1d10 days.'
+- name: Deep Rothé
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Deep Scion
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: 'Deep scions began life as people who were stolen from shore or saved from
+    sinking ships and offered a terrible bargain by an undersea power: surrender,
+    body and soul, or drown. Those who submit are subjected to an ancient ritual widespread
+    among evil aquatic creatures. Its methods are painful and the result never certain,
+    but when it works, the magic transforms an air-breathing person into a shapechanger
+    that can take a form that is fully at home beneath the waves.'
+- name: Deinonychus
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Deer
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Demilich
+  challengeRating: 18
+  experiencePoints: 20000
+  environment: ''
+  flavor: 'A demilich in its lair has a challenge rating of 20 (25,000 XP).
+
+    <b>Lair Actions:</b>
+
+    On initiative count 20 (losing initiative ties), the demilich rolls a d20. On
+    a result of 11 or higher, the demilich takes a lair action to cause one of the
+    following effects. It can''t use the same effect two rounds in a row.
+
+    - The tomb trembles violently for a moment. Each creature on the floor of the
+    tomb must succeed on a DC 19 Dexterity saving throw or be knocked prone.
+
+    - The demilich targets one creature it can see within 60 feet of it. An <i>antimagic
+    field</i> fills the space of the target, moving it until initiative count 20 on
+    the next round.
+
+    - The demilich targets any number of creatures it can see within 30 feet of it.
+    No target can regain hit points until initiative count 20 on the next round.
+
+    <b>Lair Traits:</b>
+
+    A demilich''s tomb might have any or all of the following effects in place:
+
+    - The first time a non-evil creature enters the tomb''s area, the creature takes
+    16 (3d10) necrotic damage.
+
+    - Monsters in the tomb have advantage on saving throws against being charmed or
+    frightened, and against features that turn undead.
+
+    - The tomb is warded against the magical travel of creatures the demilich hasn''t
+    authorized. Such creatures can''t teleport into or out of the tomb''s area or
+    use planar travel work within the tomb as long as they aren''t used to leave or
+    enter the tomb''s area.'
+- name: Deva
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Devourer
+  challengeRating: 13
+  experiencePoints: 10000
+  environment: ''
+  flavor: ''
+- name: Dimetradon
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Dire Wolf
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Displacer Beast
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Diviner
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Djinni
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Draegloth
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Dolphin
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Doppelganger
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Draft Horse
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Dragon Turtle
+  challengeRating: 17
+  experiencePoints: 18000
+  environment: ''
+  flavor: ''
+- name: Dretch
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Drider
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Drow
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Drow Elite Warrior
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Drow Mage
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Drow Priestess of Lolth
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Drowned Ascetic
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: 'Dressed in tattered robes, its fists wrapped in long ribbons of rotting
+    cloth, the drowned ascetic moves with alarming speed for an undead creature. This
+    martial artist, rising from the ocean in Tammeraut’s Fate, retains its fighting
+    reflexes despite its rotting flesh.
+
+
+    BLUEROT
+
+
+    This disease target humanoids. While afflicted with bluerot, a victim grows grotesque
+    blue boils on their face and back. This disease is carried by undead (including
+    the drowned ones in Tammeraut’s Fate), and victims most often acquire it through
+    wounds caused by infected creatures.
+
+
+    The disease’s boils manifest in 1d4 hours, causing the victim’s Constitution and
+    Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed
+    by a fever and tingling in the extremities. An infected creature is vulnerable
+    to radiant damage and gains the ability to breathe underwater.
+
+
+    At the end of each long rest, an infected creature makes a DC 12 Constitution
+    saving throw. On a success, the victim regains 1 point of Constitution and 1 point
+    of Charisma lost to the disease. If the infected creature regains all the points
+    lost to the disease, it is cured. Other effects that raise the victim’s ability
+    scores do not cure the disease. On a failed saving throw, the victim takes 18
+    (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit
+    points by this damage cannot regain hit points until the disease is cured, though
+    it can be stabilized as normal.'
+- name: Drowned Assassin
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: 'The drowned assassin stalks and kills in a grim pantomime of its former
+    occupation. Sneaking from shadow to shadow, and appearing in the undead assault
+    of Tammeraut’s Fate, it aims its barnacle-encrusted hand crossbow with deadly
+    precision. Hidden behind a simple driftwood mask, this creature’s face causes
+    terror in mortal hearts when exposed.
+
+
+    BLUEROT
+
+
+    This disease target humanoids. While afflicted with bluerot, a victim grows grotesque
+    blue boils on their face and back. This disease is carried by undead (including
+    the drowned ones in Tammeraut’s Fate), and victims most often acquire it through
+    wounds caused by infected creatures.
+
+
+    The disease’s boils manifest in 1d4 hours, causing the victim’s Constitution and
+    Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed
+    by a fever and tingling in the extremities. An infected creature is vulnerable
+    to radiant damage and gains the ability to breathe underwater.
+
+
+    At the end of each long rest, an infected creature makes a DC 12 Constitution
+    saving throw. On a success, the victim regains 1 point of Constitution and 1 point
+    of Charisma lost to the disease. If the infected creature regains all the points
+    lost to the disease, it is cured. Other effects that raise the victim’s ability
+    scores do not cure the disease. On a failed saving throw, the victim takes 18
+    (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit
+    points by this damage cannot regain hit points until the disease is cured, though
+    it can be stabilized as normal.'
+- name: Drowned Blade
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: 'Assaulting the hermitage in Tammeraut’s Fate, this barnacle-encrusted undead
+    warrior fights with surprising cunning. Starfish cling to its wispy beard, and
+    its evil rage is visible in its bloated gray eyes.
+
+
+    BLUEROT
+
+
+    This disease target humanoids. While afflicted with bluerot, a victim grows grotesque
+    blue boils on their face and back. This disease is carried by undead (including
+    the drowned ones in Tammeraut’s Fate), and victims most often acquire it through
+    wounds caused by infected creatures.
+
+
+    The disease’s boils manifest in 1d4 hours, causing the victim’s Constitution and
+    Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed
+    by a fever and tingling in the extremities. An infected creature is vulnerable
+    to radiant damage and gains the ability to breathe underwater.
+
+
+    At the end of each long rest, an infected creature makes a DC 12 Constitution
+    saving throw. On a success, the victim regains 1 point of Constitution and 1 point
+    of Charisma lost to the disease. If the infected creature regains all the points
+    lost to the disease, it is cured. Other effects that raise the victim’s ability
+    scores do not cure the disease. On a failed saving throw, the victim takes 18
+    (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit
+    points by this damage cannot regain hit points until the disease is cured, though
+    it can be stabilized as normal.'
+- name: Druid
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Drowned Master
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: 'This waterlogged undead, bound to the Pit of Hatred in Tammeraut’s Fate,
+    hovers menacingly over the bones of its victims. Its torso, arms, and head retain
+    their former shapes, but its legs have split into shadowy tentacles. The drowned
+    master is tethered to a source of powerful magic that prevents it from traveling
+    far. It commands other drowned ones, compelling them to serve as agents in its
+    dark plots.
+
+
+    BLUEROT
+
+
+    This disease target humanoids. While afflicted with bluerot, a victim grows grotesque
+    blue boils on their face and back. This disease is carried by undead (including
+    the drowned ones in Tammeraut’s Fate), and victims most often acquire it through
+    wounds caused by infected creatures.
+
+
+    The disease’s boils manifest in 1d4 hours, causing the victim’s Constitution and
+    Charisma scores to decrease by 1d4 each, to a minimum of 3. This is quickly followed
+    by a fever and tingling in the extremities. An infected creature is vulnerable
+    to radiant damage and gains the ability to breathe underwater.
+
+
+    At the end of each long rest, an infected creature makes a DC 12 Constitution
+    saving throw. On a success, the victim regains 1 point of Constitution and 1 point
+    of Charisma lost to the disease. If the infected creature regains all the points
+    lost to the disease, it is cured. Other effects that raise the victim’s ability
+    scores do not cure the disease. On a failed saving throw, the victim takes 18
+    (4d8) necrotic damage as the boils burst and spread. A creature reduced to 0 hit
+    points by this damage cannot regain hit points until the disease is cured, though
+    it can be stabilized as normal.'
+- name: Dryad
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Duodrone
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Duergar
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Dust Mephit
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Eagle
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Earth Elemental
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Efreeti
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Elder Brain
+  challengeRating: 14
+  experiencePoints: 11500
+  environment: ''
+  flavor: "<b>Lair Actions:</b>\nWhen fighting inside its lair, an elder brain can\
+    \ use lair actions. On initiative count 20 (losing initiative ties), an elder\
+    \ brain can take one lair action to cause one of the following effects; the elder\
+    \ brain can't use the same lair action two rounds in a row:\n• The elder brain\
+    \ casts <i>wall of force</i>.\n• The elder brain targets one friendly creature\
+    \ it can sense within 120 feet of it. The target has a flash of inspiration and\
+    \ gains advantage on one attack roll, ability check, or saving throw it makes\
+    \ before the end of its next turn. If the target doesn't or can't use this benefit\
+    \ in that time, the inspiration is lost.\n• The elder brain targets one creature\
+    \ it can sense within 120 feet of it and anchors it by sheer force of will. The\
+    \ target must succeed on a DC 18 Charisma saving throw or be unable to leave its\
+    \ current space. It can repeat the saving throw at the end of each of its turns,\
+    \ ending the effect on itself on a success. \n<b>Regional Effects:</b>\nThe territory\
+    \ within 5 miles of an elder brain is altered by the creature's psionic presence,\
+    \ which creates one or more of the following effects:\n• Creatures within 5 miles\
+    \ of an elder brain feel as if they are being followed, even when they are not.\n\
+    • The elder brain can overhear any telepathic conversation happening within 5\
+    \ miles of it. The creature that initiated the telepathic conversation makes a\
+    \ DC 18 Wisdom (Insight) check when telepathic contact is first established. If\
+    \ the check succeeds, the creature is aware that something is eavesdropping on\
+    \ the conversation. The nature of the eavesdropper isn't revealed,\nand the elder\
+    \ brain can't participate in the telepathic conversation unless it has formed\
+    \ a psychic link with the creature that initiated it.\n• Any creature with which\
+    \ the elder brain has formed a psychic link hears faint, incomprehensible whispers\
+    \ in the deepest recesses of its mind. This psychic detritus consists of the elder\
+    \ brain's stray thoughts commingled with those of other creatures to which it\
+    \ is linked.\nIf the elder brain dies, these effects immediately end."
+- name: Eldritch Cannon
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: At 3rd level, you learn how to create a magical cannon. Using woodcarver’s
+    tools or smith’s tools, you can take an action to magically create a Small or
+    Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet
+    of you. A Small eldritch cannon occupies its space, and a Tiny one can be held
+    in one hand.
+- name: Elephant
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Elk
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Empyrean
+  challengeRating: 23
+  experiencePoints: 50000
+  environment: ''
+  flavor: ''
+- name: Enchanter
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Erinyes
+  challengeRating: 12
+  experiencePoints: 8400
+  environment: ''
+  flavor: ''
+- name: Ettin
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Ettercap
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Evoker
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Fathomer
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: Fathomers are cultists who have sealed a pact with Olhydra, elemental Princess
+    of Evil Water. In addition to their spellcasting abilities, fathomers have the
+    ability to transform their bodies into water, taking serpent-like shapes. In their
+    water serpent forms, fathomers gain many of the resistances that elemental creatures
+    possess, as well as the ability to grapple and crush their enemies with their
+    watery bodies.
+- name: Faerie Dragon
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Fire Elemental
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Fire Giant
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Fire Giant Dreadnought
+  challengeRating: 14
+  experiencePoints: 11500
+  environment: ''
+  flavor: ''
+- name: Fire Snake
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Firenewt Warlock of Imix
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Firenewt Warrior
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Flail Snail
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Flameskull
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Flind
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Flesh Golem
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Flumph
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Flying Sword
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Flying Snake
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Fomorian
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Frog
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Froghemoth
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Frost Giant
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Galeb Duhr
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Frost Giant Everlasting One
+  challengeRating: 12
+  experiencePoints: 8400
+  environment: ''
+  flavor: ''
+- name: Gas Spore
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Gauth
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Gazer
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Gargoyle
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Ghast
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Gelatinous Cube
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Ghoul
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Ghost
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Giant Ape
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Giant Boar
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Giant Bat
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Giant Badger
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Giant Centipede
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Giant Constrictor Snake
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Giant Coral Snake
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: Comfortable on land or in water, these brilliantly colored snakes are renowned
+    for their potent and hallucinogenic venom. They are most often found in coastal
+    caves. In the abandoned chambers of the hermitage in Tammeraut’s Fate, these giant
+    serpents feed on any creature that crosses their path.
+- name: Giant Crab
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Giant Crocodile
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Giant Eagle
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Giant Elk
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Giant Fire Beetle
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Giant Frog
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Giant Goat
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Giant Hyena
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Giant Lizard
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Giant Octopus
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Giant Owl
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Giant Poisonous Snake
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Giant Rat
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Giant Rat (Diseased)
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Giant Scorpion
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Giant Sea Eel
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: Snaking predators lurking in the dark waters of the ocean, these kelp-colored
+    beasts serve as guards and mounts for the locathah (including those found in Danger
+    at Dunwater).
+- name: Giant Sea Horse
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Giant Shark
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Giant Strider
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Giant Spider
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Giant Toad
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Giant Vulture
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Giant Wasp
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Giant Weasel
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Gibbering Mouther
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Girallon
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Giant Wolf Spider
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Githyanki Knight
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Githyanki Warrior
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Githzerai Zerth
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Githzerai Monk
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Glabrezu
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Gladiator
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Gnoll
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Gnoll Fang of Yeenoghu
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Gnoll Flesh Gnawer
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Gnoll Hunter
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Gnoll Pack Lord
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Goat
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Gnoll Witherling
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Goblin
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Goblin Boss
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Gold Dragon Wyrmling
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Goristro
+  challengeRating: 17
+  experiencePoints: 18000
+  environment: ''
+  flavor: ''
+- name: Gorgon
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Gray Ooze
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Gray Slaad
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Green Dragon Wyrmling
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Green Guard Drake
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Green Hag
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: "<b>Lair Actions:</b>\nOn initiative count 20 (losing initiative ties),\
+    \ the hag can take a lair action to cause one of the following effects, but can't\
+    \ use the same effect two rounds in a row:\n• Until initiative count 20 on the\
+    \ next round, the hag can pass through solid walls, doors, ceilings, and floors\
+    \ as if the surfaces weren't there.\n• The hag targets any number of doors and\
+    \ windows that she can see, causing each one to either open or close as she wishes.\
+    \ Closed doors can be magically locked (requiring a successful DC 20 Strength\
+    \ check to force open) until she chooses to make them unlocked, or until she uses\
+    \ this lair action again to open them. \n• The hag creates an illusory duplicate\
+    \ of herself, which appears in its own space. As long as she can see her duplicate,\
+    \ the hag can move it a distance equal to her walking speed as well as make the\
+    \ illusion speak on her turn (no action required). The illusion has the same statistics\
+    \ as the hag but can't take actions or reactions. It can interact with its environment\
+    \ and even pick up and hold real objects. The illusion seems real in every way\
+    \ but disappears if it takes any amount of damage. Otherwise, it lasts until the\
+    \ hag dismisses it (no action required) or can no longer see it. If the hag uses\
+    \ this lair action to create a new duplicate, the previous one vanishes, dropping\
+    \ any real objects in its possession.\n<b>Regional Effects:</b>\nThe region within\
+    \ 1 mile of a grandmother hag's lair is warped by the creature's fell magic, which\
+    \ creates one or more of the following effects:\n• Birds, rodents, snakes, spiders,\
+    \ or toads (or some other creatures appropriate to the hag) are found in great\
+    \ profusion.\n• Beasts that have an Intelligence score of 2 or lower are charmed\
+    \ by the hag and directed to be aggressive toward intruders in the area.\n• Strange\
+    \ carved figurines, twig fetishes, or rag dolls magically appear in trees.\n•\
+    \ Illusory duplicates of the hag appear in random places at random times (but\
+    \ never more than one in any given location). An illusory duplicate has no substance,\
+    \ but it looks, sounds, and moves like the hag. The hag can sense when one or\
+    \ more creatures are within 60 feet of her duplicate and can interact with them\
+    \ as if she were present and standing in the duplicate's space. If the illusory\
+    \ duplicate takes any damage, it disappears.\n• The region takes twice as long\
+    \ as normal to traverse, since the plants grow thick and twisted, and the swamps\
+    \ are thick with reeking mud.\n• Trees transform into awakened trees and attack\
+    \ when hostile intruders are near."
+- name: Green Slaad
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Grell
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Grick
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Grick Alpha
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Griffon
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Grimlock
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Grung Elite Warrior
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Grung
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Grung Wildling
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Guard
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Guard Drake
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Guardian Naga
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Gynosphinx
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Hadrosaurus
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Harpy
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Half-Ogre
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: Any chaotic alignment
+- name: Half-Red Dragon Veteran
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Harpy Matriarch
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: Happy to watch its flock squabble over carrion in Tammeraut’s Fate, this
+    gray-feathered matron of the harpies is surrounded by a cloud of magical spirits
+    resembling skeletal seabirds.
+- name: Hawk
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Hell Hound
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Helmed Horror
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Hill Giant
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Hezrou
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Hippogriff
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Hobgoblin
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Hobgoblin Captain
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Hobgoblin Devastator
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Hobgoblin Iron Shadow
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Homunculus
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Hobgoblin Warlord
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Hook Horror
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Hunter Shark
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Horned Devil
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Hydra
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Hyena
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Ice Mephit
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Ice Devil
+  challengeRating: 14
+  experiencePoints: 11500
+  environment: ''
+  flavor: ''
+- name: Illithilich
+  challengeRating: 22
+  experiencePoints: 41000
+  environment: ''
+  flavor: '<b>Lair Actions:</b>
+
+    On initiative count 20 (losing initiative ties), the lich can take a lair action
+    to cause one of the following magical effects; the lich can''t use the same effect
+    two rounds in a row:
+
+    • The lich rolls a d8 and regains a spell slot of that level or lower. If it has
+    no spent spell slots of that level or lower, nothing happens.
+
+    • The lich targets one creature it can see within 30 feet of it. A crackling cord
+    of negative energy tethers the lich to the target. Whenever the lich takes damage,
+    the target must make a DC 18 Constitution saving throw. On a failed save, the
+    lich takes half the damage (rounded down), and the target takes the remaining
+    damage. This tether lasts until initiative count 20 on the next round or until
+    the lich or the target is no longer in the lich''s lair.
+
+    • The lich calls forth the spirits of creatures that died in its lair. These apparitions
+    materialize and attack one creature that the lich can see within 60 feet of it.
+    The target must succeed on a DC 18 Constitution saving throw, taking 52 (15d6)
+    necrotic damage on a failed save, or half as much damage on a success. The apparitions
+    then disappear.'
+- name: Imp
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Illusionist
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Intellect Devourer
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Invisible Stalker
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Iron Golem
+  challengeRating: 16
+  experiencePoints: 15000
+  environment: ''
+  flavor: ''
+- name: Jackal
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Jackalwere
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: K'Thar
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: Arctic
+  flavor: A War Paladin which seeks nothing else but to reign over the city of Chila
+    using the power of the White Dragon he serves.
+- name: Juvenile Kraken
+  challengeRating: 14
+  experiencePoints: 11500
+  environment: ''
+  flavor: Hidden in a deep, dark underwater pit near the Styes, this creature bears
+    the mark of the dark god Tharizdun’s madness. Becoming more independent every
+    day, it dreams of freeing itself from its aboleth tenders and wreaking its own
+    foul will upon the seas.
+- name: Kenku
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Killer Whale
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Ki-rin
+  challengeRating: 12
+  experiencePoints: 8400
+  environment: ''
+  flavor: '<b>Regional Effects:</b>
+
+    The ki-rin''s celestial nature transforms the region around its lair. Any of the
+    following magical effects is possible for travelers to encounter in the vicinity:
+
+    • Water flows pure within 3 miles of a ki-rin''s lair. Any purposeful corruption
+    of the water lasts for no longer than 3 minutes.
+
+    • Animals, plants, and good creatures within 3 miles of the ki-rin''s lair gain
+    vigor as they evolve toward an idealized form. Such creatures are rarely aggressive
+    toward others that aren''t normally prey. Evil creatures can''t tolerate the holy
+    atmosphere within the same distance, and usually choose to live much farther from
+    the domain of a ki-rin.
+
+    • Curses, diseases, and poisons affecting good-aligned creatures are suppressed
+    when those creatures are within 3 miles of the lair.
+
+    • A ki-rin can cast <i>control weather</i> while it is within 3 miles of its lair.
+    The spell''s point of origin is always the point outdoors closest to the center
+    of its lair. The ki-rin doesn''t need to maintain a clear path to the sky or to
+    concentrate for the change in weather to persist.
+
+    • Within 3 miles of the lair, winds buoy non-evil creatures that fall due to no
+    act of the ki-rin or its allies. Such creatures descend at a rate of 60 feet per
+    round and take no falling damage.
+
+    When the ki-rin dies, all these effects disappear immediately, although the invigorating
+    effect on flora and fauna remains for 3 years.'
+- name: Knight
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Koalinth
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: The koalinth, found in Danger at Dunwater, are martial and aggressive aquatic
+    hobgoblins, with brightly colored faces and functional gills. They are known for
+    their ferocity, and for their hatred of elves.
+- name: Kobold Dragonshield
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Kobold Inventor
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Kobold
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Koalinth Sergeant
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: These fierce koalinths lead special missions for their people, such as the
+    diplomatic envoy encountered in Danger at Dunwater. A koalinth sergeant focuses
+    its ire on the most significant threats on the battlefield, then eliminates those
+    threats one by one.
+- name: Kobold Scale Sorcerer
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Korred
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Kraken
+  challengeRating: 23
+  experiencePoints: 50000
+  environment: ''
+  flavor: ''
+- name: Kuo-Toa
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Kraken Priest
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: A kraken can seem godlike to folk who have witnessed its fury. Those who
+    believe that its might comes from being a divine entity and those who seek to
+    appease the monster through its veneration sometimes find themselves infused with
+    special abilities, to serve thereafter as kraken priests. (Any evil alignment).
+- name: Kuo-Toa Archpriest
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Kuo-Toa Whip
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Kysh (Triton)
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: A prisoner of the sahuagin in The Final Enemy, Kysh is a defender of the
+    deep sea realms who is ready to join the party in their struggle. Tritons are
+    folk of the Elemental Plane of Water who journeyed to the Material Plane to watch
+    over the dark places of the ocean depths. They stand guard over portals, deep
+    sea chasms, and other places where foul monsters might emerge. When such threats
+    appear, the tritons take up arms to drive them from the world.
+- name: Lamia
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Lemure
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Lich
+  challengeRating: 21
+  experiencePoints: 33000
+  environment: ''
+  flavor: ''
+- name: Leucrotta
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Lion
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Lizard
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Living Iron Statue
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: This squat, solid-looking statue, currently guarding the evil cult’s treasure
+    in Isle of the Abbey, is made from pure iron. Its hands are shaped into deadly
+    weapons.
+- name: Lizard King/Queen
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Lizardfolk
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Lizardfolk Commoner
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: These lizardfolk, found wandering the halls in Danger at Dunwater, are just
+    as fierce as their armed kin, and can equip themselves with weapons and shields
+    if such are available.
+- name: Lizardfolk Shaman
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Lizardfolk Scaleshield
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: Serving as the elite warriors and officers of a lizardfolk clan, these robust
+    creatures wear thick armor made from crocodile scales and metal. Trained in martial
+    weapons and advanced combat tactics, they are found protecting lizardfolk lairs
+    such as the one in Danger at Dunwater.
+- name: Lizardfolk Render
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: Filled with the primal magic of Semuanya, the lizardfolk render undergoes
+    terrifying changes during a days-long ritual performed by a shaman. As seen in
+    Danger at Dunwater, the render’s claws grow long and hard as steel, its frame
+    enlarges, and its temperament becomes even more ferocious.
+- name: Lizardfolk Subchief
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: The lizardfolk subchief (seen in Danger at Dunwater) is a devout priest
+    of Semuanya, pursuing the worship of its god in a manner similar to a cleric.
+    It wields a dagger crafted of a massive crocodile tooth blessed by Semuanya, representing
+    the subchief’s prowess in both battle and piety.
+- name: Locathah Hunter
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: The far-ranging locathah hunter is trained in tracking and stalking prey
+    on land and in water. They often serve as leaders to small bands of locathah or
+    emissaries for their people (such as the hunter found in Danger at Dunwater).
+    Their colorful, poisoned, and fast-loading crossbows rarely miss a target.
+- name: Locathah
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: These resilient and proud fish-folk (found in Danger at Dunwater) have endured
+    war, slavery, and mistreatment at the hands of other aquatic creatures. They dwell
+    in submerged tribal communities along seacoasts, and hunt both above and below
+    the water.
+- name: Lt. Tucker
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Mage
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Magma Mephit
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Magmin
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Mammoth
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Manticore
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Manes
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Marid
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Marilith
+  challengeRating: 16
+  experiencePoints: 15000
+  environment: ''
+  flavor: ''
+- name: Martial Arts Adept
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Master Thief
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Mastiff
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Maw Demon
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: A quartet of squat fiends — all mouth and malice — turn their bottomless
+    hunger to Lolth’s servants in Salvage Operation. Infamous for their ceaseless
+    hunger for carnage and mortal flesh, these fiends devour all in their paths. After
+    a maw demon rests for 8 hours, anything it has devoured is transported to the
+    Abyss for further digestion of a different sort.
+- name: Maw of Sekolah
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: Summoned from the shadowy depths of the ocean through ritual and tidal magic,
+    the Maw of Sekolah appears in The Final Enemy as the avatar of the hungry sahuagin
+    god. This huge, two-headed shark is fed a steady diet of sentient creatures, captured
+    by the sahuagin and offered up as tribute. Sahuagin priestesses adorn the fins
+    of the maw of Sekolah with gemmed bands and polished skulls.
+- name: Medusa
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Bandit
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Camel
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Giant Toad
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Hippogriff
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Hezrou
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Mastiff
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Merfolk
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Mimic
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Merrow
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Minotaur
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Mule
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Minotaur Skeleton
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Mummy
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Mummy Lord
+  challengeRating: 15
+  experiencePoints: 13000
+  environment: ''
+  flavor: ''
+- name: Nalfeshnee
+  challengeRating: 13
+  experiencePoints: 10000
+  environment: ''
+  flavor: ''
+- name: Night Hag
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Nightmare
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Ochre Jelly
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Noble
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Ogre
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Octopus
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Ogre Zombie
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Orc
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Otyugh
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Oni
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Owl
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Owlbear
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Panther
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Phase Spider
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Pegasus
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Planetar
+  challengeRating: 16
+  experiencePoints: 15000
+  environment: ''
+  flavor: ''
+- name: Pit Fiend
+  challengeRating: 20
+  experiencePoints: 25000
+  environment: ''
+  flavor: ''
+- name: Plesiosaurus
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Poisonous Snake
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Polar Bear
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Pony
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Priest
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Quasit
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Pseudodragon
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Purple Worm
+  challengeRating: 15
+  experiencePoints: 13000
+  environment: ''
+  flavor: ''
+- name: Quipper
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Rakshasa
+  challengeRating: 13
+  experiencePoints: 10000
+  environment: ''
+  flavor: ''
+- name: Rat
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Raven
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Red Dragon Wyrmling
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Reef Shark
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Remorhaz
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Riding Horse
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Rhinoceros
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Roper
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Roc
+  challengeRating: 11
+  experiencePoints: 7200
+  environment: ''
+  flavor: ''
+- name: Rust Monster
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Rug of Smothering
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Saber-Toothed Tiger
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Salamander
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Sahuagin
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Scorpion
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Satyr
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Scout
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Sea Hag
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Sea Horse
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Shadow
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Shambling Mound
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Shrieker
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Shield Guardian
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Spider
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Solar
+  challengeRating: 21
+  experiencePoints: 33000
+  environment: ''
+  flavor: ''
+- name: Spirit Naga
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Skeleton
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Specter
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Silver Dragon Wyrmling
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Stirge
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Sprite
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Spy
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Stone Golem
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Steam Mephit
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Stone Giant
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Storm Giant
+  challengeRating: 13
+  experiencePoints: 10000
+  environment: ''
+  flavor: ''
+- name: Succubus/Incubus
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Swarm of Bats
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Swarm of Centipedes
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Swarm of Beetles
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Swarm of Insects
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Swarm of Quippers
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Swarm of Poisonous Snakes
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Swarm of Rats
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Swarm of Ravens
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Swarm of Wasps
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Swarm of Spiders
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Thug
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Tarrasque
+  challengeRating: 30
+  experiencePoints: 155000
+  environment: ''
+  flavor: ''
+- name: Tiger
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Tribal Warrior
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Treant
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Triceratops
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Troll
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Unicorn
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Tyrannosaurus Rex
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Veteran
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Vampire Spawn
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Violet Fungus
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Vampire
+  challengeRating: 13
+  experiencePoints: 10000
+  environment: ''
+  flavor: ''
+- name: Vulture
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Warhorse Skeleton
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Warhorse
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Vrock
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Water Elemental
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Weasel
+  challengeRating: 0
+  experiencePoints: 10
+  environment: ''
+  flavor: ''
+- name: Werebear
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Wereboar
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Weretiger
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Wererat
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Werewolf
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: White Dragon Wyrmling
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Will-o'-Wisp
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Winter Wolf
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Worg
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Wight
+  challengeRating: 3
+  experiencePoints: 700
+  environment: ''
+  flavor: ''
+- name: Wolf
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Wraith
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Xorn
+  challengeRating: 5
+  experiencePoints: 1800
+  environment: ''
+  flavor: ''
+- name: Wyvern
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Young Brass Dragon
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Young Black Dragon
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Young Blue Dragon
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Young Bronze Dragon
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Young Gold Dragon
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Young Copper Dragon
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Young Green Dragon
+  challengeRating: 8
+  experiencePoints: 3900
+  environment: ''
+  flavor: ''
+- name: Young Red Dragon
+  challengeRating: 10
+  experiencePoints: 5900
+  environment: ''
+  flavor: ''
+- name: Zombie
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Young Silver Dragon
+  challengeRating: 9
+  experiencePoints: 5000
+  environment: ''
+  flavor: ''
+- name: Young White Dragon
+  challengeRating: 6
+  experiencePoints: 2300
+  environment: ''
+  flavor: ''
+- name: Animated Threads
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: Silly little threads wrapped up and in a tizzy with access to the needles
+    that guide them.
+- name: Nyli, Mischievous Threadling
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: A fey spirit born of forgotten love and leftover magic. Once tied to a tapestry
+    Pillea made for her late partner, Nyli felt abandoned when the tapestry was discarded
+    during renovations. Now she tries to “fix” the shop herself.. badly.
+- name: Threadbeast Golem
+  challengeRating: 4
+  experiencePoints: 1100
+  environment: ''
+  flavor: ''
+- name: Downy Pseudodragon
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: Forest
+  flavor: ''
+- name: Moon Moth Swarm
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Sprightly Blink Bunny
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Velvet Hedgehog
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Mischievous Faerie Dragon
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Celestial Fawn
+  challengeRating: 3
+  experiencePoints: 700
+  environment: Forest
+  flavor: ''
+- name: Shimmering Moth Swarm
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Starwing Blink Hare
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Vine Blight
+  challengeRating: 0.5
+  experiencePoints: 100
+  environment: ''
+  flavor: ''
+- name: Twig Blight
+  challengeRating: 0.125
+  experiencePoints: 25
+  environment: ''
+  flavor: ''
+- name: Tree Blight
+  challengeRating: 7
+  experiencePoints: 2900
+  environment: ''
+  flavor: ''
+- name: Smoke Mephit
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
+- name: Scarecrow
+  challengeRating: 1
+  experiencePoints: 200
+  environment: ''
+  flavor: ''
+- name: Poltergeist
+  challengeRating: 2
+  experiencePoints: 450
+  environment: ''
+  flavor: ''
+- name: Needle Blight
+  challengeRating: 0.25
+  experiencePoints: 50
+  environment: ''
+  flavor: ''
