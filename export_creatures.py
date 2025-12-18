@@ -10,7 +10,7 @@ This script extracts the following fields for each creature:
 - flavor (description)
 
 Requirements:
-    - PyYAML: Install with 'pip install pyyaml'
+    - PyYAML: Install with 'pip install PyYAML'
 """
 
 import json
@@ -19,7 +19,7 @@ import sys
 try:
     import yaml
 except ImportError:
-    print("Error: PyYAML is not installed. Please install it with: pip install pyyaml")
+    print("Error: PyYAML is not installed. Please install it with: pip install PyYAML")
     sys.exit(1)
 
 

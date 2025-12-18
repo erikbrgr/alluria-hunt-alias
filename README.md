@@ -28,7 +28,7 @@ This will read `critterdb.json` and generate `creatures.yaml` in the current dir
 To install PyYAML:
 
 ```bash
-pip install pyyaml
+pip install PyYAML
 ```
 
 ### Exported Fields
