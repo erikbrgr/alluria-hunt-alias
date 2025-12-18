@@ -39,7 +39,6 @@ The script exports the following fields for each creature:
 - **challengeRating** - The creature's challenge rating (CR)
 - **experiencePoints** - Experience points awarded for defeating the creature
 - **environment** - The creature's natural environment
-- **flavor** - Description or flavor text about the creature
 
 ## Output Format
 
@@ -50,12 +49,10 @@ The output YAML file contains a list of creature entries. Example:
   challengeRating: 0.25
   experiencePoints: 50
   environment: ''
-  flavor: ''
 - name: Adult Blue Dragon
   challengeRating: 16
   experiencePoints: 15000
   environment: ''
-  flavor: ''
 ```
 
 ## Error Handling

@@ -7,7 +7,6 @@ This script extracts the following fields for each creature:
 - challengeRating
 - experiencePoints
 - environment
-- flavor (description)
 
 Requirements:
     - PyYAML: Install with 'pip install PyYAML'
