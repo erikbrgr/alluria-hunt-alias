@@ -57,7 +57,6 @@ def export_creatures_to_yaml(input_file='critterdb.json', output_file='creatures
             'challengeRating': creature.get('stats', {}).get('challengeRating', 0),
             'experiencePoints': creature.get('stats', {}).get('experiencePoints', 0),
             'environment': creature.get('flavor', {}).get('environment', ''),
-            'flavor': creature.get('flavor', {}).get('description', '')
         }
         creatures.append(creature_data)
     
